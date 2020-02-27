@@ -3011,6 +3011,28 @@ BOOM500:
   submarket: crash_index
   symbol: BOOM500
   market_type: non_financial
+RB100:
+  asset: RB100
+  display_name: Range Break 100 Index
+  exchange_name: RANDOM
+  instrument_type: ~
+  market: synthetic_index
+  pip_size: 1
+  quoted_currency: ~
+  submarket: range_index
+  symbol: RB100
+  market_type: non_financial
+RB200:
+  asset: RB200
+  display_name: Range Break 200 Index
+  exchange_name: RANDOM
+  instrument_type: ~
+  market: synthetic_index
+  pip_size: 1
+  quoted_currency: ~
+  submarket: range_index
+  symbol: RB200
+  market_type: non_financial
 1HZ10V:
   asset: 1HZ10V
   display_name: Volatility 10 (1s) Index
