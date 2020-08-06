@@ -3,7 +3,7 @@ package Finance::Underlying;
 use strict;
 use warnings;
 
-our $VERSION = '0.004';
+our $VERSION = '0.005';
 
 =head1 NAME
 
@@ -30,6 +30,7 @@ use Moo;
 use YAML::XS qw(LoadFile);
 use Scalar::Util qw(looks_like_number);
 use File::ShareDir ();
+use POSIX;
 
 my %underlyings;
 
@@ -45,15 +46,16 @@ Return a string pipsized to the correct number of decimal point
 
 Returns a list of all underlyings, ordered by symbol.
 
+=head2 display_decimals
+
+Returns the number of digits of the underlying pip size or a custom pip size
+
 =cut
 
 sub pipsized_value {
     my ($self, $value, $custom) = @_;
 
-    my $display_decimals =
-        $custom
-        ? log(1 / $custom) / log(10)
-        : log(1 / $self->pip_size) / log(10);
+    my $display_decimals = $self->display_decimals($custom);
     if (defined $value and looks_like_number($value)) {
         $value = sprintf '%.' . $display_decimals . 'f', $value;
     }
@@ -62,6 +64,12 @@ sub pipsized_value {
 
 sub all_underlyings {
     map { $underlyings{$_} } sort keys %underlyings;
+}
+
+sub display_decimals {
+    my ($self , $custom ) = @_;
+    my $the_pip_size = $custom ? $custom : $self->pip_size;
+    return POSIX::log10( 1/$the_pip_size );
 }
 
 =head2 symbols
