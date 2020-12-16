@@ -31,6 +31,7 @@ use YAML::XS qw(LoadFile);
 use Scalar::Util qw(looks_like_number);
 use File::ShareDir ();
 use POSIX;
+use Format::Util::Numbers qw(roundcommon);
 
 my %underlyings;
 
@@ -54,10 +55,11 @@ Returns the number of digits of the underlying pip size or a custom pip size
 
 sub pipsized_value {
     my ($self, $value, $custom) = @_;
+    
+    my $pip_size = $custom || $self->pip_size;
 
-    my $display_decimals = $self->display_decimals($custom);
     if (defined $value and looks_like_number($value)) {
-        $value = sprintf '%.' . $display_decimals . 'f', $value;
+        $value = roundcommon($pip_size, $value);
     }
     return $value;
 }
