@@ -2563,86 +2563,86 @@ cryeUSDTUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryeUSDTUSD
-stpAUDUSD:
+stepAUDUSD:
   asset: AUD
   display_name: AUD/USD Step Index
   exchange_name: FOREX
-  instrument_type: synthetic_index
-  market: synthetic_index
+  instrument_type: step_fx
+  market: forex
   pip_size: 0.001
   quoted_currency: USD
-  submarket: step_index
-  symbol: stpAUDUSD
-stpUSDCAD:
+  submarket: step_fx
+  symbol: stepAUDUSD
+stepUSDCAD:
   asset: USD
   display_name: USD/CAD Step Index
   exchange_name: FOREX
-  instrument_type: synthetic_index
-  market: synthetic_index
+  instrument_type: step_fx
+  market: forex
   pip_size: 0.001
   quoted_currency: CAD
-  submarket: step_index
-  symbol: stpUSDCAD
-stpEURCAD:
+  submarket: step_fx
+  symbol: stepUSDCAD
+stepEURCAD:
   asset: EUR
   display_name: EUR/CAD Step Index
   exchange_name: FOREX
-  instrument_type: synthetic_index
-  market: synthetic_index
+  instrument_type: step_fx
+  market: forex
   pip_size: 0.001
   quoted_currency: CAD
-  submarket: step_index
-  symbol: stpEURCAD
-stpAUDJPY:
+  submarket: step_fx
+  symbol: stepEURCAD
+stepAUDJPY:
   asset: AUD
   display_name: AUD/JPY Step Index
   exchange_name: FOREX
-  instrument_type: synthetic_index
-  market: synthetic_index
+  instrument_type: step_fx
+  market: forex
   pip_size: 0.001
   quoted_currency: JPY
-  submarket: step_index
-  symbol: stpAUDJPY
-stpEURGBP:
+  submarket: step_fx
+  symbol: stepAUDJPY
+stepEURGBP:
   asset: EUR
   display_name: EUR/GBP Step Index
   exchange_name: FOREX
-  instrument_type: synthetic_index
-  market: synthetic_index
+  instrument_type: step_fx
+  market: forex
   pip_size: 0.001
   quoted_currency: GBP
-  submarket: step_index
-  symbol: stpEURGBP
-stpUSDJPY:
+  submarket: step_fx
+  symbol: stepEURGBP
+stepUSDJPY:
   asset: USD
   display_name: USD/JPY Step Index
   exchange_name: FOREX
-  instrument_type: synthetic_index
-  market: synthetic_index
+  instrument_type: step_fx
+  market: forex
   pip_size: 0.001
   quoted_currency: JPY
-  submarket: step_index
-  symbol: stpUSDJPY
-stpEURJPY:
+  submarket: step_fx
+  symbol: stepUSDJPY
+stepEURJPY:
   asset: EUR
   display_name: EUR/JPY Step Index
   exchange_name: FOREX
-  instrument_type: synthetic_index
-  market: synthetic_index
+  instrument_type: step_fx
+  market: forex
   pip_size: 0.001
   quoted_currency: JPY
-  submarket: step_index
-  symbol: stpEURJPY
-stpEURUSD:
+  submarket: step_fx
+  symbol: stepEURJPY
+stepEURUSD:
   asset: EUR
   display_name: EUR/USD Step Index
   exchange_name: FOREX
-  instrument_type: synthetic_index
-  market: synthetic_index
+  instrument_type: step_fx
+  market: forex
   pip_size: 0.001
   quoted_currency: USD
-  submarket: step_index
-  symbol: stpEURUSD
+  submarket: step_fx
+  symbol: stepEURUSD
 stpRNG:
   asset: stpRNG
   display_name: Step Index
