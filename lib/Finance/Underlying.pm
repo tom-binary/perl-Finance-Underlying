@@ -94,6 +94,7 @@ sub by_symbol {
     my (undef, $symbol) = @_;
 
     $symbol =~ s/^FRX/frx/i;
+    $symbol =~ s/^CRY/cry/i;
     $symbol =~ s/^RAN/ran/i;
     $symbol =~ s/^STP/stp/i;
     return $underlyings{$symbol} // die "unknown underlying $symbol";
