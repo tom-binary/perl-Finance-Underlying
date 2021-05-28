@@ -923,6 +923,34 @@ R_100:
   quoted_currency: ~
   submarket: random_index
   symbol: R_100
+R_200:
+  asset: R_200
+  display_name: Volatility 200 Index
+  exchange_name: RANDOM
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: random_index
+  symbol: R_200
+R_300:
+  asset: R_300
+  display_name: Volatility 300 Index
+  exchange_name: RANDOM
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: random_index
+  symbol: R_300
 R_25:
   asset: R_25
   display_name: Volatility 25 Index
