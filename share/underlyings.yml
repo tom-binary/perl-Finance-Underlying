@@ -501,6 +501,36 @@ JD100:
   quoted_currency: ~
   submarket: jump_index
   symbol: JD100
+JD150:
+  asset: JD150
+  display_name: Jump 150 Index
+  exchange_name: RANDOM
+  generation_interval: 1s
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: jump_index
+  symbol: JD150
+JD200:
+  asset: JD200
+  display_name: Jump 200 Index
+  exchange_name: RANDOM
+  generation_interval: 1s
+  instrument_type: stockindex
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  quoted_currency: ~
+  submarket: jump_index
+  symbol: JD200
 JD25:
   asset: JD25
   display_name: Jump 25 Index
