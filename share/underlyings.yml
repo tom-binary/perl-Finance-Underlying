@@ -186,6 +186,17 @@ BOOM500:
   quoted_currency: ~
   submarket: crash_index
   symbol: BOOM500
+BOOM300:
+  asset: BOOM300
+  display_name: Boom 300 Index
+  exchange_name: RANDOM
+  instrument_type: ~
+  market: synthetic_index
+  market_type: non_financial
+  pip_size: 0.001
+  quoted_currency: ~
+  submarket: crash_index
+  symbol: BOOM300
 BSESENSEX30:
   asset: BSESENSEX30
   display_name: Bombay Index
@@ -237,6 +248,17 @@ CRASH500:
   quoted_currency: ~
   submarket: crash_index
   symbol: CRASH500
+CRASH300:
+  asset: CRASH300
+  display_name: Crash 300 Index
+  exchange_name: RANDOM
+  instrument_type: ~
+  market: synthetic_index
+  market_type: non_financial
+  pip_size: 0.001
+  quoted_currency: ~
+  submarket: crash_index
+  symbol: CRASH300
 DEADS:
   asset: DEADS
   display_name: Adidas
