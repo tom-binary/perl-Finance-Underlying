@@ -1890,19 +1890,6 @@ WLDGBP:
   quoted_currency: WLDGBP
   submarket: smart_fx
   symbol: WLDGBP
-WLDGOLD:
-  asset: G
-  display_name: G Index
-  exchange_name: FOREX
-  instrument_type: smart_fx
-  market: commodities
-  market_convention:
-    delta_premium_adjusted: 0
-    delta_style: spot_delta
-  pip_size: 0.001
-  quoted_currency: WLDGOLD
-  submarket: smart_fx
-  symbol: WLDGOLD
 WLDUSD:
   asset: USD
   display_name: USD Index
@@ -1921,7 +1908,7 @@ WLDXAU:
   display_name: Gold Index
   exchange_name: METAL
   instrument_type: smart_fx
-  market: commodities
+  market: forex
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
