@@ -1295,8 +1295,8 @@ TOP40:
   quoted_currency: ZAR
   submarket: europe_africa
   symbol: TOP40
-USAAIR:
-  asset: USAAIR
+USAAL:
+  asset: USAAL
   display_name: American Airlines Group Inc.
   exchange_name: NASDAQ
   instrument_type: individualstock
@@ -1307,7 +1307,46 @@ USAAIR:
   pip_size: 0.01
   quoted_currency: USD
   submarket: us_otc_stock
-  symbol: USAAIR
+  symbol: USAAL
+USMRNA:
+  asset: USMRNA
+  display_name: Moderna Inc
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USMRNA
+USNKLA:
+  asset: USNKLA
+  display_name: Nikola Corporation
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USNKLA
+USABNB:
+  asset: USABNB
+  display_name: Airbnb Inc.
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USABNB
 USAAPL:
   asset: USAAPL
   display_name: Apple
@@ -1321,6 +1360,19 @@ USAAPL:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USAAPL
+USBIIB:
+  asset: USBIIB
+  display_name: Biogen Biogen Inc
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USBIIB
 USAIG:
   asset: USAIG
   display_name: American International Group Inc.
@@ -1334,8 +1386,8 @@ USAIG:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USAIG
-USALIBA:
-  asset: USALIBA
+USBABA:
+  asset: USBABA
   display_name: Alibaba
   exchange_name: NYSE
   instrument_type: individualstock
@@ -1346,7 +1398,7 @@ USALIBA:
   pip_size: 0.01
   quoted_currency: USD
   submarket: us_otc_stock
-  symbol: USALIBA
+  symbol: USBABA
 USAMX:
   asset: USAMX
   display_name: American Express
@@ -1386,8 +1438,8 @@ USBAC:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USBAC
-USBNG:
-  asset: USBNG
+USBA:
+  asset: USBA
   display_name: Boeing
   exchange_name: NYSE
   instrument_type: individualstock
@@ -1398,7 +1450,7 @@ USBNG:
   pip_size: 0.01
   quoted_currency: USD
   submarket: us_otc_stock
-  symbol: USBNG
+  symbol: USBA
 USC:
   asset: USC
   display_name: Citigroup Inc
@@ -1490,8 +1542,8 @@ USDIS:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USDIS
-USDLT:
-  asset: USDLT
+USDAL:
+  asset: USDAL
   display_name: Delta Air Lines Inc.
   exchange_name: NYSE
   instrument_type: individualstock
@@ -1502,9 +1554,9 @@ USDLT:
   pip_size: 0.01
   quoted_currency: USD
   submarket: us_otc_stock
-  symbol: USDLT
-USEBY:
-  asset: USEBY
+  symbol: USDAL
+USEBAY:
+  asset: USEBAY
   display_name: eBay Inc.
   exchange_name: NASDAQ
   instrument_type: individualstock
@@ -1515,7 +1567,7 @@ USEBY:
   pip_size: 0.01
   quoted_currency: USD
   submarket: us_otc_stock
-  symbol: USEBY
+  symbol: USEBAY
 USFB:
   asset: USFB
   display_name: Facebook
@@ -1542,6 +1594,19 @@ USFDX:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USFDX
+USSPCE:
+  asset: USSPCE
+  display_name: Virgin Galactic
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USSPCE
 USGLDSCH:
   asset: USGLDSCH
   display_name: Goldman Sachs
@@ -4317,6 +4382,86 @@ frxXPTAUD:
   quoted_currency: AUD
   submarket: metals
   symbol: frxXPTAUD
+frxXZNUSD:
+  asset: XZN
+  display_name: XZN/USD
+  exchange_name: METAL
+  instrument_type: commodities
+  market: commodities
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: metals
+  symbol: frxXZNUSD
+frxXPBUSD:
+  asset: XPB
+  display_name: XPB/USD
+  exchange_name: METAL
+  instrument_type: commodities
+  market: commodities
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: metals
+  symbol: frxXPBUSD
+frxXNIUSD:
+  asset: XNI
+  display_name: XNI/USD
+  exchange_name: METAL
+  instrument_type: commodities
+  market: commodities
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: metals
+  symbol: frxXNIUSD
+frxXALUSD:
+  asset: XAL
+  display_name: XAL/USD
+  exchange_name: METAL
+  instrument_type: commodities
+  market: commodities
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: metals
+  symbol: frxXALUSD
+frxXCUUSD:
+  asset: XCU
+  display_name: XCU/USD
+  exchange_name: METAL
+  instrument_type: commodities
+  market: commodities
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: metals
+  symbol: frxXCUUSD
 frxXPTEUR:
   asset: XPT
   display_name: XPT/EUR
