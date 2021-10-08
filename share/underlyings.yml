@@ -47,6 +47,7 @@
   asset: 1HZ200V
   display_name: Volatility 200 (1s) Index
   exchange_name: RANDOM
+  generation_interval: 1s
   instrument_type: stockindex
   is_generated: 1
   market: synthetic_index
