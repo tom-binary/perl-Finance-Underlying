@@ -341,6 +341,32 @@ DEBMW:
   quoted_currency: EUR
   submarket: ge_otc_stock
   symbol: DEBMW
+DEBOSS:
+  asset: DEBOSS
+  display_name: Hugo Boss AG
+  exchange_name: FSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: ge_otc_stock
+  symbol: DEBOSS
+DECONG:
+  asset: DECONG
+  display_name: Continental AG
+  exchange_name: FSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: ge_otc_stock
+  symbol: DECONG
 DEDBK:
   asset: DEDBK
   display_name: Deutsche Bank
@@ -354,6 +380,45 @@ DEDBK:
   quoted_currency: EUR
   submarket: ge_otc_stock
   symbol: DEDBK
+DELHAG:
+  asset: DELHAG
+  display_name: Lufthansa AG
+  exchange_name: FSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: ge_otc_stock
+  symbol: DELHAG
+DEPUMG:
+  asset: DEPUMG
+  display_name: Puma SE
+  exchange_name: FSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: ge_otc_stock
+  symbol: DEPUMG
+DEPSHG:
+  asset: DEPSHG
+  display_name: Porsche Automobil Holding SE Stock
+  exchange_name: FSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: ge_otc_stock
+  symbol: DEPSHG
 DFMGI:
   asset: DFMGI
   display_name: Dubai Index
@@ -694,6 +759,32 @@ NDX:
   quoted_currency: USD
   submarket: americas
   symbol: NDX
+FRAIR:
+  asset: FRAIR
+  display_name: Airbus SE
+  exchange_name: EURONEXT
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: fr_otc_stock
+  symbol: FRAIR
+FRAIRF:
+  asset: FRAIRF
+  display_name: Air France KLM SA
+  exchange_name: EURONEXT
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: EUR
+  submarket: fr_otc_stock
+  symbol: FRAIRF
 OBX:
   asset: OBX
   display_name: Norwegian Index
@@ -1135,6 +1226,32 @@ SX5E:
   quoted_currency: EUR
   submarket: europe_africa
   symbol: SX5E
+CHNESN:
+  asset: CHNESN
+  display_name: Nestle SA
+  exchange_name: SWX
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: CHF
+  submarket: ch_otc_stock
+  symbol: CHNESN
+CHNOVN:
+  asset: CHNOVN
+  display_name: Novartis AG
+  exchange_name: SWX
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: CHF
+  submarket: ch_otc_stock
+  symbol: CHNOVN
 SYNAEX:
   asset: SYNAEX
   display_name: Dutch Smart Index
@@ -1317,6 +1434,19 @@ USAIG:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USAIG
+USAMD:
+  asset: USAMD
+  display_name: Advanced Micro Devices Inc
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USAMD
 USAMX:
   asset: USAMX
   display_name: American Express
@@ -1538,6 +1668,19 @@ USFDX:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USFDX
+USFOX:
+  asset: USFOX
+  display_name: Fox Corporation B
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USFOX
 USGLDSCH:
   asset: USGLDSCH
   display_name: Goldman Sachs
@@ -1577,6 +1720,19 @@ USGOOG:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USGOOG
+USHD:
+  asset: USHD
+  display_name: Home Depot Inc
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USHD
 USHPQ:
   asset: USHPQ
   display_name: HP Inc
@@ -1772,6 +1928,19 @@ USNVDA:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USNVDA
+USPEP:
+  asset: USPEP
+  display_name: PepsiCo Inc
+  exchange_name: NASDAQ
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USPEP
 USPFE:
   asset: USPFE
   display_name: Pfizer Inc
@@ -1811,6 +1980,19 @@ USPYPL:
   quoted_currency: USD
   submarket: us_otc_stock
   symbol: USPYPL
+USSONY:
+  asset: USSONY
+  display_name: Sony Corporation
+  exchange_name: NYSE
+  instrument_type: individualstock
+  market: stocks
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: us_otc_stock
+  symbol: USSONY
 USSPCE:
   asset: USSPCE
   display_name: Virgin Galactic
