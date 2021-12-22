@@ -4123,6 +4123,22 @@ frxUSDIDR:
   quoted_currency: IDR
   submarket: minor_pairs
   symbol: frxUSDIDR
+frxUSDIQD:
+  asset: USD
+  display_name: USD/IQD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: IQD
+  submarket: minor_pairs
+  symbol: frxUSDIQD
 frxUSDILS:
   asset: USD
   display_name: USD/ILS
@@ -4155,6 +4171,54 @@ frxUSDINR:
   quoted_currency: INR
   submarket: minor_pairs
   symbol: frxUSDINR
+frxUSDISK:
+  asset: USD
+  display_name: USD/ISK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: ISK
+  submarket: minor_pairs
+  symbol: frxUSDISK
+frxUSDKGS:
+  asset: USD
+  display_name: USD/KGS
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: KGS
+  submarket: minor_pairs
+  symbol: frxUSDKGS
+frxUSDKMF:
+  asset: USD
+  display_name: USD/KMF
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: KMF
+  submarket: minor_pairs
+  symbol: frxUSDKMF
 frxUSDJPY:
   asset: USD
   display_name: USD/JPY
@@ -4299,6 +4363,22 @@ frxUSDTHB:
   quoted_currency: THB
   submarket: minor_pairs
   symbol: frxUSDTHB
+frxUSDTOP:
+  asset: USD
+  display_name: USD/TOP
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 1e-05
+  quoted_currency: TOP
+  submarket: minor_pairs
+  symbol: frxUSDTOP
 frxUSDTRY:
   asset: USD
   display_name: USD/TRY
@@ -4766,3 +4846,1907 @@ stpUSDJPY:
   quoted_currency: JPY
   submarket: step_index
   symbol: stpUSDJPY
+frxUSDAFN:
+  asset: USD
+  display_name: USD/AFN
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: AFN
+  submarket: minor_pairs
+  symbol: frxUSDAFN
+frxUSDALL:
+  asset: USD
+  display_name: USD/ALL
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: ALL
+  submarket: minor_pairs
+  symbol: frxUSDALL
+frxUSDAOA:
+  asset: USD
+  display_name: USD/AOA
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: AOA
+  submarket: minor_pairs
+  symbol: frxUSDAOA
+frxUSDAMD:
+  asset: USD
+  display_name: USD/AMD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: AMD
+  submarket: minor_pairs
+  symbol: frxUSDAMD
+frxUSDARS:
+  asset: USD
+  display_name: USD/ARS
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: ARS
+  submarket: minor_pairs
+  symbol: frxUSDARS
+frxUSDAWG:
+  asset: USD
+  display_name: USD/AWG
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: AWG
+  submarket: minor_pairs
+  symbol: frxUSDAWG
+frxUSDAZM:
+  asset: USD
+  display_name: USD/AZM
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: AZM
+  submarket: minor_pairs
+  symbol: frxUSDAZM
+frxUSDBAM:
+  asset: USD
+  display_name: USD/BAM
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: BAM
+  submarket: minor_pairs
+  symbol: frxUSDBAM
+frxUSDBBD:
+  asset: USD
+  display_name: USD/BBD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: BBD
+  submarket: minor_pairs
+  symbol: frxUSDBBD
+frxUSDBDT:
+  asset: USD
+  display_name: USD/BDT
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: BDT
+  submarket: minor_pairs
+  symbol: frxUSDBDT
+frxUSDBHD:
+  asset: USD
+  display_name: USD/BHD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: BHD
+  submarket: minor_pairs
+  symbol: frxUSDBHD
+frxUSDBIF:
+  asset: USD
+  display_name: USD/BIF
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: BIF
+  submarket: minor_pairs
+  symbol: frxUSDBIF
+frxUSDBOB:
+  asset: USD
+  display_name: USD/BOB
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: BOB
+  submarket: minor_pairs
+  symbol: frxUSDBOB
+frxUSDBMD:
+  asset: USD
+  display_name: USD/BMD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: BMD
+  submarket: minor_pairs
+  symbol: frxUSDBMD
+frxUSDBND:
+  asset: USD
+  display_name: USD/BND
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: BND
+  submarket: minor_pairs
+  symbol: frxUSDBND
+frxUSDBRL:
+  asset: USD
+  display_name: USD/BRL
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: BRL
+  submarket: minor_pairs
+  symbol: frxUSDBRL
+frxUSDBSD:
+  asset: USD
+  display_name: USD/BSD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: BSD
+  submarket: minor_pairs
+  symbol: frxUSDBSD
+frxUSDBTN:
+  asset: USD
+  display_name: USD/BTN
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: BTN
+  submarket: minor_pairs
+  symbol: frxUSDBTN
+frxUSDBWP:
+  asset: USD
+  display_name: USD/BWP
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: BWP
+  submarket: minor_pairs
+  symbol: frxUSDBWP
+frxUSDBYR:
+  asset: USD
+  display_name: USD/BYR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: BYR
+  submarket: minor_pairs
+  symbol: frxUSDBYR
+frxUSDBZD:
+  asset: USD
+  display_name: USD/BZD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: BZD
+  submarket: minor_pairs
+  symbol: frxUSDBZD
+frxUSDCDF:
+  asset: USD
+  display_name: USD/CDF
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: CDF
+  submarket: minor_pairs
+  symbol: frxUSDCDF
+frxUSDCLP:
+  asset: USD
+  display_name: USD/CLP
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: CLP
+  submarket: minor_pairs
+  symbol: frxUSDCLP
+frxUSDCNY:
+  asset: USD
+  display_name: USD/CNY
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: CNY
+  submarket: minor_pairs
+  symbol: frxUSDCNY
+frxUSDCOP:
+  asset: USD
+  display_name: USD/COP
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: COP
+  submarket: minor_pairs
+  symbol: frxUSDCOP
+frxUSDCRC:
+  asset: USD
+  display_name: USD/CRC
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: CRC
+  submarket: minor_pairs
+  symbol: frxUSDCRC
+frxUSDCUP:
+  asset: USD
+  display_name: USD/CUP
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: CUP
+  submarket: minor_pairs
+  symbol: frxUSDCUP
+frxUSDCVE:
+  asset: USD
+  display_name: USD/CVE
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: CVE
+  submarket: minor_pairs
+  symbol: frxUSDCVE
+frxUSDDJF:
+  asset: USD
+  display_name: USD/DJF
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: DJF
+  submarket: minor_pairs
+  symbol: frxUSDDJF
+frxUSDDKK:
+  asset: USD
+  display_name: USD/DKK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: DKK
+  submarket: minor_pairs
+  symbol: frxUSDDKK
+frxUSDDOP:
+  asset: USD
+  display_name: USD/DOP
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: DOP
+  submarket: minor_pairs
+  symbol: frxUSDDOP
+frxUSDDZD:
+  asset: USD
+  display_name: USD/DZD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: DZD
+  submarket: minor_pairs
+  symbol: frxUSDDZD
+frxUSDECS:
+  asset: USD
+  display_name: USD/ECS
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: ECS
+  submarket: minor_pairs
+  symbol: frxUSDECS
+frxUSDEGP:
+  asset: USD
+  display_name: USD/EGP
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: EGP
+  submarket: minor_pairs
+  symbol: frxUSDEGP
+frxUSDERN:
+  asset: USD
+  display_name: USD/ERN
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: ERN
+  submarket: minor_pairs
+  symbol: frxUSDERN
+frxUSDETB:
+  asset: USD
+  display_name: USD/ETB
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: ETB
+  submarket: minor_pairs
+  symbol: frxUSDETB
+frxUSDFJD:
+  asset: USD
+  display_name: USD/FJD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: FJD
+  submarket: minor_pairs
+  symbol: frxUSDFJD
+frxFKPUSD:
+  asset: FKP
+  display_name: FKP/USD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: USD
+  submarket: minor_pairs
+  symbol: frxFKPUSD
+frxUSDGEL:
+  asset: USD
+  display_name: USD/GEL
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: GEL
+  submarket: minor_pairs
+  symbol: frxUSDGEL
+frxGIPUSD:
+  asset: GIP
+  display_name: GIP/USD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: USD
+  submarket: minor_pairs
+  symbol: frxGIPUSD
+frxUSDGHC:
+  asset: USD
+  display_name: USD/GHC
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: GHC
+  submarket: minor_pairs
+  symbol: frxUSDGHC
+frxUSDGQE:
+  asset: USD
+  display_name: USD/GQE
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: GQE
+  submarket: minor_pairs
+  symbol: frxUSDGQE
+frxUSDGMD:
+  asset: USD
+  display_name: USD/GMD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: GMD
+  submarket: minor_pairs
+  symbol: frxUSDGMD
+frxUSDGNF:
+  asset: USD
+  display_name: USD/GNF
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: GNF
+  submarket: minor_pairs
+  symbol: frxUSDGNF
+frxUSDGTQ:
+  asset: USD
+  display_name: USD/GTQ
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: GTQ
+  submarket: minor_pairs
+  symbol: frxUSDGTQ
+frxUSDGYD:
+  asset: USD
+  display_name: USD/GYD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: GYD
+  submarket: minor_pairs
+  symbol: frxUSDGYD
+frxUSDHNL:
+  asset: USD
+  display_name: USD/HNL
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: HNL
+  submarket: minor_pairs
+  symbol: frxUSDHNL
+frxUSDHTG:
+  asset: USD
+  display_name: USD/HTG
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: HTG
+  submarket: minor_pairs
+  symbol: frxUSDHTG
+frxUSDJMD:
+  asset: USD
+  display_name: USD/JMD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: JMD
+  submarket: minor_pairs
+  symbol: frxUSDJMD
+frxUSDJOD:
+  asset: USD
+  display_name: USD/JOD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: JOD
+  submarket: minor_pairs
+  symbol: frxUSDJOD
+frxUSDKES:
+  asset: USD
+  display_name: USD/KES
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: KES
+  submarket: minor_pairs
+  symbol: frxUSDKES
+frxUSDKHR:
+  asset: USD
+  display_name: USD/KHR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: KHR
+  submarket: minor_pairs
+  symbol: frxUSDKHR
+frxUSDKRW:
+  asset: USD
+  display_name: USD/KRW
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: KRW
+  submarket: minor_pairs
+  symbol: frxUSDKRW
+frxUSDKWD:
+  asset: USD
+  display_name: USD/KWD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: KWD
+  submarket: minor_pairs
+  symbol: frxUSDKWD
+frxUSDKYD:
+  asset: USD
+  display_name: USD/KYD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: KYD
+  submarket: minor_pairs
+  symbol: frxUSDKYD
+frxUSDKZT:
+  asset: USD
+  display_name: USD/KZT
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: KZT
+  submarket: minor_pairs
+  symbol: frxUSDKZT
+frxUSDLAK:
+  asset: USD
+  display_name: USD/LAK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: LAK
+  submarket: minor_pairs
+  symbol: frxUSDLAK
+frxUSDLBP:
+  asset: USD
+  display_name: USD/LBP
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: LBP
+  submarket: minor_pairs
+  symbol: frxUSDLBP
+frxUSDLKR:
+  asset: USD
+  display_name: USD/LKR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: LKR
+  submarket: minor_pairs
+  symbol: frxUSDLKR
+frxUSDLRD:
+  asset: USD
+  display_name: USD/LRD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: LRD
+  submarket: minor_pairs
+  symbol: frxUSDLRD
+frxUSDLSL:
+  asset: USD
+  display_name: USD/LSL
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: LSL
+  submarket: minor_pairs
+  symbol: frxUSDLSL
+frxUSDLYD:
+  asset: USD
+  display_name: USD/LYD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: LYD
+  submarket: minor_pairs
+  symbol: frxUSDLYD
+frxUSDMAD:
+  asset: USD
+  display_name: USD/MAD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: MAD
+  submarket: minor_pairs
+  symbol: frxUSDMAD
+frxUSDMDL:
+  asset: USD
+  display_name: USD/MDL
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: MDL
+  submarket: minor_pairs
+  symbol: frxUSDMDL
+frxUSDMGA:
+  asset: USD
+  display_name: USD/MGA
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: MGA
+  submarket: minor_pairs
+  symbol: frxUSDMGA
+frxUSDMGF:
+  asset: USD
+  display_name: USD/MGF
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: MGF
+  submarket: minor_pairs
+  symbol: frxUSDMGF
+frxUSDMKD:
+  asset: USD
+  display_name: USD/MKD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: MKD
+  submarket: minor_pairs
+  symbol: frxUSDMKD
+frxUSDMMK:
+  asset: USD
+  display_name: USD/MMK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: MMK
+  submarket: minor_pairs
+  symbol: frxUSDMMK
+frxUSDMNT:
+  asset: USD
+  display_name: USD/MNT
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: MNT
+  submarket: minor_pairs
+  symbol: frxUSDMNT
+frxUSDMOP:
+  asset: USD
+  display_name: USD/MOP
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: MOP
+  submarket: minor_pairs
+  symbol: frxUSDMOP
+frxUSDMUR:
+  asset: USD
+  display_name: USD/MUR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: MUR
+  submarket: minor_pairs
+  symbol: frxUSDMUR
+frxUSDMVR:
+  asset: USD
+  display_name: USD/MVR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: MVR
+  submarket: minor_pairs
+  symbol: frxUSDMVR
+frxUSDMWK:
+  asset: USD
+  display_name: USD/MWK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: MWK
+  submarket: minor_pairs
+  symbol: frxUSDMWK
+frxUSDMZM:
+  asset: USD
+  display_name: USD/MZM
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: MZM
+  submarket: minor_pairs
+  symbol: frxUSDMZM
+frxUSDNAD:
+  asset: USD
+  display_name: USD/NAD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: NAD
+  submarket: minor_pairs
+  symbol: frxUSDNAD
+frxUSDNGN:
+  asset: USD
+  display_name: USD/NGN
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: NGN
+  submarket: minor_pairs
+  symbol: frxUSDNGN
+frxUSDNIO:
+  asset: USD
+  display_name: USD/NIO
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: NIO
+  submarket: minor_pairs
+  symbol: frxUSDNIO
+frxUSDNPR:
+  asset: USD
+  display_name: USD/NPR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: NPR
+  submarket: minor_pairs
+  symbol: frxUSDNPR
+frxUSDOMR:
+  asset: USD
+  display_name: USD/OMR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: OMR
+  submarket: minor_pairs
+  symbol: frxUSDOMR
+frxUSDPAB:
+  asset: USD
+  display_name: USD/PAB
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: PAB
+  submarket: minor_pairs
+  symbol: frxUSDPAB
+frxUSDPEN:
+  asset: USD
+  display_name: USD/PEN
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: PEN
+  submarket: minor_pairs
+  symbol: frxUSDPEN
+frxUSDPGK:
+  asset: USD
+  display_name: USD/PGK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: PGK
+  submarket: minor_pairs
+  symbol: frxUSDPGK
+frxUSDPHP:
+  asset: USD
+  display_name: USD/PHP
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: PHP
+  submarket: minor_pairs
+  symbol: frxUSDPHP
+frxUSDPKR:
+  asset: USD
+  display_name: USD/PKR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: PKR
+  submarket: minor_pairs
+  symbol: frxUSDPKR
+frxUSDQAR:
+  asset: USD
+  display_name: USD/QAR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: QAR
+  submarket: minor_pairs
+  symbol: frxUSDQAR
+frxUSDRWF:
+  asset: USD
+  display_name: USD/RWF
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: RWF
+  submarket: minor_pairs
+  symbol: frxUSDRWF
+frxUSDSAR:
+  asset: USD
+  display_name: USD/SAR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: SAR
+  submarket: minor_pairs
+  symbol: frxUSDSAR
+frxUSDSBD:
+  asset: USD
+  display_name: USD/SBD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: SBD
+  submarket: minor_pairs
+  symbol: frxUSDSBD
+frxUSDSCR:
+  asset: USD
+  display_name: USD/SCR
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: SCR
+  submarket: minor_pairs
+  symbol: frxUSDSCR
+frxUSDSDG:
+  asset: USD
+  display_name: USD/SDG
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: SDG
+  submarket: minor_pairs
+  symbol: frxUSDSDG
+frxSHPUSD:
+  asset: SHP
+  display_name: SHP/USD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: USD
+  submarket: minor_pairs
+  symbol: frxSHPUSD
+frxUSDSLL:
+  asset: USD
+  display_name: USD/SLL
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: SLL
+  submarket: minor_pairs
+  symbol: frxUSDSLL
+frxUSDSOS:
+  asset: USD
+  display_name: USD/SOS
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: SOS
+  submarket: minor_pairs
+  symbol: frxUSDSOS
+frxUSDSRD:
+  asset: USD
+  display_name: USD/SRD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: SRD
+  submarket: minor_pairs
+  symbol: frxUSDSRD
+frxUSDSTD:
+  asset: USD
+  display_name: USD/STD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: STD
+  submarket: minor_pairs
+  symbol: frxUSDSTD
+frxUSDSVC:
+  asset: USD
+  display_name: USD/SVC
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: SVC
+  submarket: minor_pairs
+  symbol: frxUSDSVC
+frxUSDSZL:
+  asset: USD
+  display_name: USD/SZL
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: SZL
+  submarket: minor_pairs
+  symbol: frxUSDSZL
+frxUSDTJS:
+  asset: USD
+  display_name: USD/TJS
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: TJS
+  submarket: minor_pairs
+  symbol: frxUSDTJS
+frxUSDTMT:
+  asset: USD
+  display_name: USD/TMT
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: TMT
+  submarket: minor_pairs
+  symbol: frxUSDTMT
+frxUSDTND:
+  asset: USD
+  display_name: USD/TND
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: TND
+  submarket: minor_pairs
+  symbol: frxUSDTND
+frxUSDTRL:
+  asset: USD
+  display_name: USD/TRL
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: TRL
+  submarket: minor_pairs
+  symbol: frxUSDTRL
+frxUSDTTD:
+  asset: USD
+  display_name: USD/TTD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: TTD
+  submarket: minor_pairs
+  symbol: frxUSDTTD
+frxUSDTWD:
+  asset: USD
+  display_name: USD/TWD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: TWD
+  submarket: minor_pairs
+  symbol: frxUSDTWD
+frxUSDTZS:
+  asset: USD
+  display_name: USD/TZS
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: TZS
+  submarket: minor_pairs
+  symbol: frxUSDTZS
+frxUSDUAH:
+  asset: USD
+  display_name: USD/UAH
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: UAH
+  submarket: minor_pairs
+  symbol: frxUSDUAH
+frxUSDUGX:
+  asset: USD
+  display_name: USD/UGX
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: UGX
+  submarket: minor_pairs
+  symbol: frxUSDUGX
+frxUSDUYU:
+  asset: USD
+  display_name: USD/UYU
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: UYU
+  submarket: minor_pairs
+  symbol: frxUSDUYU
+frxUSDUZS:
+  asset: UZS
+  display_name: USD/UZS
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: UZS
+  submarket: minor_pairs
+  symbol: frxUSDUZS
+frxUSDVEB:
+  asset: USD
+  display_name: USD/VEB
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: VEB
+  submarket: minor_pairs
+  symbol: frxUSDVEB
+frxUSDVND:
+  asset: USD
+  display_name: USD/VND
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: VND
+  submarket: minor_pairs
+  symbol: frxUSDVND
+frxUSDWST:
+  asset: USD
+  display_name: USD/WST
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: WST
+  submarket: minor_pairs
+  symbol: frxUSDWST
+frxUSDXAF:
+  asset: USD
+  display_name: USD/XAF
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: XAF
+  submarket: minor_pairs
+  symbol: frxUSDXAF
+frxUSDXCD:
+  asset: USD
+  display_name: USD/XCD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: XCD
+  submarket: minor_pairs
+  symbol: frxUSDXCD
+frxUSDXOF:
+  asset: USD
+  display_name: USD/XOF
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: XOF
+  submarket: minor_pairs
+  symbol: frxUSDXOF
+frxUSDXPF:
+  asset: USD
+  display_name: USD/XPF
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: XPF
+  submarket: minor_pairs
+  symbol: frxUSDXPF
+frxUSDYER:
+  asset: USD
+  display_name: USD/YER
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: YER
+  submarket: minor_pairs
+  symbol: frxUSDYER
+frxUSDYUM:
+  asset: USD
+  display_name: USD/YUM
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: YUM
+  submarket: minor_pairs
+  symbol: frxUSDYUM
+frxUSDZMK:
+  asset: USD
+  display_name: USD/ZMK
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: ZMK
+  submarket: minor_pairs
+  symbol: frxUSDZMK
+frxUSDZWD:
+  asset: USD
+  display_name: USD/ZWD
+  exchange_name: FOREX
+  instrument_type: forex
+  market: forex
+  market_convention:
+    atm_setting: atm_delta_neutral_straddle
+    bf: 2_vol
+    delta_premium_adjusted: 1
+    delta_style: spot_delta
+    rr: call-put
+  pip_size: 0.0001
+  quoted_currency: ZWD
+  submarket: minor_pairs
+  symbol: frxUSDZWD
