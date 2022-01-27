@@ -346,6 +346,17 @@ has is_generated => (
     default => 0
 );
 
+=head2 providers
+
+List of providers to this specific underlying.
+In case it's not defined, it will be the same as submarket or market
+
+=cut
+
+has providers => (
+    is => 'ro'
+);
+
 {
     my $param = LoadFile(File::ShareDir::dist_file('Finance-Underlying', 'underlyings.yml'));
     %underlyings = map { ; $_ => __PACKAGE__->new($param->{$_}) } keys %$param;
