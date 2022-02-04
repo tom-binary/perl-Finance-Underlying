@@ -1,3 +1,4 @@
+
 ## For indices and equities:
 # - The volatilities are not quoted as RR, ATM and BF, infact they are quoted in
 # vol/delta. Hence we no need to worry about their convention for now.
@@ -2683,6 +2684,156 @@ cryeUSDTUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryeUSDTUSD
+cryADAUSD:
+  asset: ADA
+  display_name: ADA/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryADAUSD
+cryALGUSD:
+  asset: ALG
+  display_name: ALG/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryALGUSD
+cryBATUSD:
+  asset: BAT
+  display_name: BAT/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryBATUSD
+cryDOGUSD:
+  asset: DOG
+  display_name: DOG/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryDOGUSD
+cryDOTUSD:
+  asset: DOT
+  display_name: DOT/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryDOTUSD
+cryETCUSD:
+  asset: ETC
+  display_name: ETC/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryETCUSD
+cryFILUSD:
+  asset: FIL
+  display_name: FIL/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryFILUSD
+cryLNKUSD:
+  asset: LNK
+  display_name: LNK/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryLNKUSD
+cryMKRUSD:
+  asset: MKR
+  display_name: MKR/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryMKRUSD
+cryMTCUSD:
+  asset: MTC
+  display_name: MTC/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryMTCUSD
+crySOLUSD:
+  asset: SOL
+  display_name: SOL/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: crySOLUSD
+cryUNIUSD:
+  asset: UNI
+  display_name: UNI/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryUNIUSD
+cryXTZUSD:
+  asset: XTZ
+  display_name: XTZ/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryXTZUSD
+cryAVAUSD:
+  asset: AVA
+  display_name: AVA/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryAVAUSD
+cryTERUSD:
+  asset: TER
+  display_name: TER/USD
+  exchange_name: CRYPTOCURRENCY
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: non_stable_coin
+  symbol: cryTERUSD
 frxAUDAED:
   asset: AUD
   display_name: AUD/AED
