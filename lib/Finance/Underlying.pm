@@ -2,6 +2,7 @@ package Finance::Underlying;
 # ABSTRACT: Represents an underlying financial asset
 use strict;
 use warnings;
+use feature 'state';
 
 our $VERSION = '0.005';
 
@@ -11,7 +12,7 @@ Finance::Underlying - Object representation of a financial asset
 
 =head1 VERSION
 
-version 0.002
+version 0.005
 
 =head1 SYNOPSIS
 
@@ -76,9 +77,9 @@ sub all_underlyings {
 }
 
 sub display_decimals {
-    my ($self , $custom ) = @_;
+    my ($self, $custom) = @_;
     my $the_pip_size = $custom ? $custom : $self->pip_size;
-    return POSIX::log10( 1/$the_pip_size );
+    return POSIX::log10(1 / $the_pip_size);
 }
 
 =head2 symbols
@@ -107,6 +108,18 @@ sub by_symbol {
     return $underlyings{$symbol} // die "unknown underlying $symbol";
 }
 
+=head2 cached_underlyings
+
+To be used in L<Quant::Framework::Underlying>. 
+
+=cut
+
+sub cached_underlyings {
+    state $cached_values = {};
+
+    return $cached_values;
+}
+
 =head1 ATTRIBUTES
 
 =head2 asset
@@ -121,8 +134,7 @@ has asset => (
 );
 
 has generation_interval => (
-    is      => 'ro',
-    default => 0,
+    is => 'ro',
 );
 
 =head2 display_name
@@ -342,8 +354,48 @@ Whether this symbol is generated or it's coming from other sources
 =cut
 
 has is_generated => (
-    is => 'ro',
+    is      => 'ro',
     default => 0
+);
+
+has uses_dst_shifted_seasonality => (
+    is => 'ro',
+);
+
+has forward_feed => (
+    is => 'ro',
+);
+
+has quanto_only => (
+    is => 'ro',
+);
+
+has spot_spread_size => (
+    is => 'ro',
+);
+
+has providers => (
+    is => 'ro',
+);
+
+has flat_smile => (
+    is => 'ro',
+);
+
+has forward_inefficient_periods => (
+    is => 'ro',
+);
+
+has feed_license => (
+    is => 'ro',
+);
+
+has feed_failover => (
+    is => 'ro',
+);
+
+has inefficient_periods => (
+    is => 'ro',
 );
 
 {

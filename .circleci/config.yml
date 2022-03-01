@@ -7,6 +7,7 @@ jobs:
         auth:
           username: circle4regentmarkets
           password: $DOCKERHUB_PASSWORD
+    shell: /bin/bash -leo pipefail
     working_directory: /home/git/regentmarkets/perl-Finance-Underlying
     steps:
       - add_ssh_keys:
@@ -26,4 +27,3 @@ workflows:
     jobs:
       - build:
           context: perl
-
