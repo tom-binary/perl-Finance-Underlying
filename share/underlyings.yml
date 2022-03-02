@@ -237,7 +237,6 @@ BOOM1000:
   display_name: Boom 1000 Index
   exchange_name: RANDOM
   feed_license: realtime
-  instrument_type: ~
   is_generated: 1
   market: synthetic_index
   market_type: non_financial
@@ -253,7 +252,6 @@ BOOM300N:
   display_name: Boom 300 Index
   exchange_name: RANDOM
   feed_license: realtime
-  instrument_type: ~
   is_generated: 1
   market: synthetic_index
   market_type: non_financial
@@ -269,7 +267,6 @@ BOOM500:
   display_name: Boom 500 Index
   exchange_name: RANDOM
   feed_license: realtime
-  instrument_type: ~
   is_generated: 1
   market: synthetic_index
   market_type: non_financial
@@ -349,7 +346,6 @@ CRASH1000:
   display_name: Crash 1000 Index
   exchange_name: RANDOM
   feed_license: realtime
-  instrument_type: ~
   is_generated: 1
   market: synthetic_index
   market_type: non_financial
@@ -365,7 +361,6 @@ CRASH300N:
   display_name: Crash 300 Index
   exchange_name: RANDOM
   feed_license: realtime
-  instrument_type: ~
   is_generated: 1
   market: synthetic_index
   market_type: non_financial
@@ -381,7 +376,6 @@ CRASH500:
   display_name: Crash 500 Index
   exchange_name: RANDOM
   feed_license: realtime
-  instrument_type: ~
   is_generated: 1
   market: synthetic_index
   market_type: non_financial
@@ -1191,7 +1185,6 @@ RB100:
   display_name: Range Break 100 Index
   exchange_name: RANDOM
   feed_license: realtime
-  instrument_type: ~
   is_generated: 1
   market: synthetic_index
   market_type: non_financial
@@ -1207,7 +1200,6 @@ RB200:
   display_name: Range Break 200 Index
   exchange_name: RANDOM
   feed_license: realtime
-  instrument_type: ~
   is_generated: 1
   market: synthetic_index
   market_type: non_financial
@@ -8471,7 +8463,6 @@ stpRNG:
   display_name: Step Index
   exchange_name: RANDOM
   feed_license: realtime
-  instrument_type: ~
   is_generated: 1
   market: synthetic_index
   market_type: non_financial
