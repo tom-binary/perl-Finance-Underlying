@@ -1,0 +1,191 @@
+---
+# Our daily ohlc is populated by bom_trigger_ohlc_aggregation.pl at 00GMT of next day.
+# To allow OTC index to settle early , db team had come out with a script (bin/bom_ohlc_daily_agg.pl) that will populate them at as as market closed.(cron is cron running on minute 10, 40 of every hour).
+# We use to offer indices where we receive official OHLC from exchanges. This is no longer applicable after switching to OTC indices.
+random_index:
+    name: random_index
+    display_name: "Continuous Indices"
+    display_order: 1
+    is_OTC: 1
+    market: synthetic_index
+    explanation: 'Associated with a number that represents the relative volatility of the market. For example, the Volatility 100 Index is twice as volatile as the Volatility 50 Index.'
+    always_available: 1
+random_daily:
+    name: random_daily
+    display_name: "Daily Reset Indices"
+    display_order: 2
+    intradays_must_be_same_day: 1
+    resets_at_open: 1
+    is_OTC: 1
+    market: synthetic_index
+    explanation: 'Represent a single day of trading with different market factors. They are reset at the start of each trading day (00:00GMT).'
+    sod_blackout_start: '1m'
+    eod_blackout_expiry: '59s'
+asia_oceania_OTC:
+    name: asia_oceania_OTC
+    display_name: "Asia/Oceania"
+    is_OTC: 1
+    display_order: 1
+    market: indices
+europe_OTC:
+    name: europe_OTC
+    display_name: "Europe"
+    display_order: 2
+    is_OTC: 1
+    market: indices
+americas_OTC:
+    name: americas_OTC
+    display_name: "Americas"
+    display_order: 3
+    is_OTC: 1
+    market: indices
+smart_index:
+    name: smart_index
+    display_name: 'Smart Indices'
+    display_order: 4
+    asset_type: 'index'
+    is_OTC: 1
+    market: indices
+    explanation: 'Smart Indices'
+    volatility_surface_type: "moneyness"
+middle_east:
+    name: middle_east
+    display_name: 'Middle East'
+    display_order: 5
+    market: indices
+asia_oceania:
+    name: asia_oceania
+    display_name: "Asia/Oceania"
+    display_order: 6
+    market: indices
+europe_africa:
+    name: europe_africa
+    display_name: "Europe"
+    display_order: 7
+    market: indices
+americas:
+    name: americas
+    display_name: "Americas"
+    display_order: 8
+    market: indices
+major_pairs:
+    name: major_pairs
+    display_name: "Major Pairs"
+    display_order: 1
+    market: forex
+    is_OTC: 1
+    explanation: 'The most widely traded and liquid forex pairs.'
+    risk_profile: 'medium_risk'
+    max_suspend_trading_feed_delay: '30s'
+minor_pairs:
+    name: minor_pairs
+    display_name: "Minor Pairs"
+    display_order: 2
+    is_OTC: 1
+    market: forex
+    explanation: 'Forex pairs of interest, but with less liquid international markets.'
+    risk_profile: 'moderate_risk'
+    max_suspend_trading_feed_delay: '30s'
+    providers:
+        - 'bloomberg'
+        - 'idata'
+        - 'oz'
+smart_fx:
+    name: smart_fx
+    display_name: 'Smart FX'
+    display_order: 3
+    market: forex
+    is_OTC: 1
+    asset_type: 'currency'
+    explanation: 'Smart FX indices'
+    risk_profile: 'moderate_risk'
+metals:
+    name: metals
+    display_name: "Metals"
+    is_OTC: 1
+    display_order: 1
+    market: commodities
+energy:
+    name: energy
+    display_name: "Energy"
+    display_order: 2
+    is_OTC: 1
+    market: commodities
+    eod_blackout_expiry: '1m'
+stable_coin:
+    name: stable_coin
+    display_name: 'Cryptocurrencies'
+    asset_type: 'digital'
+    market: cryptocurrency
+    explanation: 'USD pegged coins'
+    display_order: 12
+non_stable_coin:
+    name: non_stable_coin
+    display_name: 'Cryptocurrencies'
+    asset_type: 'digital'
+    market: cryptocurrency
+    explanation: 'Cryptocurrency'
+    display_order: 12
+step_index:
+    name: step_index
+    display_name: 'Step Indices'
+    market: synthetic_index
+    explanation: 'Indices derived from actual financial instruments or pure randomness.'
+    display_order: 13
+crash_index:
+    name: crash_index
+    display_name: 'Crash/Boom Indices'
+    market: synthetic_index
+    explanation: 'Indices derived from pure randomness.'
+    display_order: 13
+range_index:
+    name: range_index
+    display_name: 'Range Break Indices'
+    market: synthetic_index
+    explanation: 'Indices derived from pure randomness.'
+    display_order: 14
+jump_index:
+    name: jump_index
+    display_name: 'Jump Indices'
+    market: synthetic_index
+    explanation: 'JD index follows normal distribution just as our R_* with a jump in both directions'
+    display_order: 15
+us_otc_stock:
+    name: us_otc_stock
+    display_name: 'US'
+    display_order: 1
+    is_OTC: 1
+    asset_type: 'stock'
+    market: stocks
+    explanation: 'US OTC Stocks'
+    volatility_surface_type: "moneyness"
+ge_otc_stock:
+    name: ge_otc_stock
+    display_name: 'Germany'
+    market: stocks
+    explanation: 'Germany OTC Stocks'
+    display_order: 2
+    is_OTC: 1
+    asset_type: 'stock'
+fr_otc_stock:
+    name: fr_otc_stock
+    display_name: 'France'
+    market: stocks
+    explanation: 'France OTC Stocks'
+    display_order: 3
+    is_OTC: 1
+    asset_type: 'stock'
+ch_otc_stock:
+    name: ch_otc_stock
+    display_name: 'Switzerland'
+    market: stocks
+    explanation: 'Switzerland OTC Stocks'
+    display_order: 4
+    is_OTC: 1
+    asset_type: 'stock'
+#This is just a fake submarket to default to when not defined.
+config:
+    name: config
+    market: config
+    display_order: -1
+    display_name: "config-only"

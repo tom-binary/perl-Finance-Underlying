@@ -323,7 +323,7 @@ CL_BRENT:
   asset: CL_BRENT
   display_name: Brent Crude Oil
   exchange_name: BRENT_OTC
-  feed_licence: realtime
+  feed_license: realtime
   flat_smile: 1
   forward_feed: 0
   instrument_type: commodities
@@ -1760,7 +1760,7 @@ USC:
   asset: USC
   display_name: Citigroup Inc
   exchange_name: NYSE
-  feed_licence: realtime
+  feed_license: realtime
   instrument_type: individualstock
   market: stocks
   market_convention:

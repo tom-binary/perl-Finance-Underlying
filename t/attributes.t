@@ -8,7 +8,7 @@ use Test::FailWarnings -allow_deps => 1;
 use Finance::Underlying;
 
 my @underlyings = Finance::Underlying->symbols;
-cmp_ok scalar(@underlyings), ">", 100, "Finance::Asset initialized, symbols are loaded";
+cmp_ok scalar(@underlyings), ">", 100, "Finance::Underlying initialized, symbols are loaded";
 my @mismatch = grep { $_ ne Finance::Underlying->by_symbol($_)->symbol } @underlyings;
 is(scalar @mismatch, 0, 'No symbols differ from underlyings.yml keys.');
 foreach my $key (@mismatch) {
