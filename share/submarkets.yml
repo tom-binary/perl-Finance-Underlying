@@ -90,14 +90,23 @@ minor_pairs:
         - 'bloomberg'
         - 'idata'
         - 'oz'
-smart_fx:
-    name: smart_fx
-    display_name: 'Smart FX'
-    display_order: 3
-    market: forex
+forex_basket:
+    name: forex_basket
+    display_name: 'Forex Basket'
+    display_order: 1
+    market: basket_index
     is_OTC: 1
     asset_type: 'currency'
-    explanation: 'Smart FX indices'
+    explanation: 'basket indices'
+    risk_profile: 'moderate_risk'
+commodity_basket:
+    name: commodity_basket
+    display_name: 'Commodities Basket'
+    display_order: 2
+    market: basket_index
+    is_OTC: 1
+    asset_type: 'currency'
+    explanation: 'basket indices'
     risk_profile: 'moderate_risk'
 metals:
     name: metals

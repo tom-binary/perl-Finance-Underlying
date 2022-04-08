@@ -40,6 +40,24 @@ forex:
         - 'oz'
     markups:
         apply_traded_markets_markup: 1
+basket_index:
+    risk_profile: 'medium_risk'
+    volatility_surface_type: "delta"
+    display_current_spot: 1
+    suspicious_move: 0.05
+    deep_otm_threshold: 0.05
+    display_name: "Basket Indices"
+    display_order: 5
+    reduced_display_decimals: 1
+    asset_type: 'currency'
+    foreign_bs_probability: 1
+    absolute_barrier_multiplier: 1
+    explanation: 'Weighted  indices that measure the value of a currency against a basket of major currencies.'
+    license: "realtime"
+    providers:
+        - 'smart'
+    markups:
+        apply_traded_markets_markup: 1
 indices:
     risk_profile: 'medium_risk'
     volatility_surface_type: "moneyness"
@@ -82,7 +100,7 @@ cryptocurrency:
     risk_profile: 'extreme_risk'
     volatility_surface_type: "flat"
     display_current_spot: 0
-    display_order: 5
+    display_order: 6
     suspicious_move: 0.05
     deep_otm_threshold: 0.05
     display_name: "Cryptocurrencies"

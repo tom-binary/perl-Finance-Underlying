@@ -2374,14 +2374,14 @@ USZM:
   symbol: USZM
 WLDAUD:
   asset: AUD
-  display_name: AUD Index
+  display_name: AUD Basket
   exchange_name: FOREX
   feed_license: realtime
   flat_smile: 1
   forward_feed: 0
-  instrument_type: smart_fx
+  instrument_type: forex_basket
   is_generated: 1
-  market: forex
+  market: basket_index
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
@@ -2390,18 +2390,18 @@ WLDAUD:
   - smart
   quanto_only: 0
   quoted_currency: WLDAUD
-  submarket: smart_fx
+  submarket: forex_basket
   symbol: WLDAUD
 WLDEUR:
   asset: EUR
-  display_name: EUR Index
+  display_name: EUR Basket
   exchange_name: FOREX
   feed_license: realtime
   flat_smile: 1
   forward_feed: 0
-  instrument_type: smart_fx
+  instrument_type: forex_basket
   is_generated: 1
-  market: forex
+  market: basket_index
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
@@ -2410,18 +2410,18 @@ WLDEUR:
   - smart
   quanto_only: 0
   quoted_currency: WLDEUR
-  submarket: smart_fx
+  submarket: forex_basket
   symbol: WLDEUR
 WLDGBP:
   asset: GBP
-  display_name: GBP Index
+  display_name: GBP Basket
   exchange_name: FOREX
   feed_license: realtime
   flat_smile: 1
   forward_feed: 0
-  instrument_type: smart_fx
+  instrument_type: forex_basket
   is_generated: 1
-  market: forex
+  market: basket_index
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
@@ -2430,18 +2430,18 @@ WLDGBP:
   - smart
   quanto_only: 0
   quoted_currency: WLDGBP
-  submarket: smart_fx
+  submarket: forex_basket
   symbol: WLDGBP
 WLDUSD:
   asset: USD
-  display_name: USD Index
+  display_name: USD Basket
   exchange_name: FOREX
   feed_license: realtime
   flat_smile: 1
   forward_feed: 0
-  instrument_type: smart_fx
+  instrument_type: forex_basket
   is_generated: 1
-  market: forex
+  market: basket_index
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
@@ -2450,18 +2450,18 @@ WLDUSD:
   - smart
   quanto_only: 0
   quoted_currency: WLDUSD
-  submarket: smart_fx
+  submarket: forex_basket
   symbol: WLDUSD
 WLDXAU:
   asset: XAU
-  display_name: Gold Index
+  display_name: Gold Basket
   exchange_name: METAL
   feed_license: realtime
   flat_smile: 1
   forward_feed: 0
-  instrument_type: smart_fx
+  instrument_type: commodity_basket
   is_generated: 1
-  market: forex
+  market: basket_index
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
@@ -2470,7 +2470,7 @@ WLDXAU:
   - smart
   quanto_only: 0
   quoted_currency: WLDXAU
-  submarket: smart_fx
+  submarket: commodity_basket
   symbol: WLDXAU
 WTI_OIL:
   asset: WTI_OIL

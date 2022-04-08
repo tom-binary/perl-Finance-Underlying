@@ -25,7 +25,7 @@ subtest 'display_markets' => sub {
     my $registry = Finance::Underlying::Market::Registry->instance;
 
     eq_or_diff [sort map { $_->name } $registry->display_markets],
-        [sort 'forex', 'cryptocurrency', 'indices', 'commodities', 'stocks', 'synthetic_index'], "correct list of financial markets";
+        [sort 'forex', 'cryptocurrency', 'indices', 'commodities', 'stocks', 'synthetic_index', 'basket_index'], "correct list of financial markets";
 };
 
 subtest 'Market builds or configs test' => sub {
@@ -146,7 +146,7 @@ subtest 'Market builds or configs test' => sub {
 
         isa_ok $crypto, 'Finance::Underlying::Market';
         is $crypto->display_name, 'Cryptocurrencies';
-        is $crypto->display_order, 5, 'display order is 5';
+        is $crypto->display_order, 6, 'display order is 6';
         ok !$crypto->equity;
         ok $crypto->reduced_display_decimals;
         is $crypto->deep_otm_threshold, 0.05;
@@ -159,6 +159,29 @@ subtest 'Market builds or configs test' => sub {
         cmp_deeply($crypto->providers, ['oz']);
         is $crypto->license, 'realtime';
         ok !$crypto->integer_barrier, 'non integer barrier';
+    };
+
+    subtest 'basket_index' => sub {
+        my $registry = Finance::Underlying::Market::Registry->instance;
+
+        my $basket_index = $registry->get('basket_index');
+
+        isa_ok $basket_index, 'Finance::Underlying::Market';
+        is $basket_index->display_name, 'Basket Indices', 'Correct display name';
+        is $basket_index->display_order, 5;
+        ok !$basket_index->equity;
+        ok $basket_index->reduced_display_decimals;
+        is $basket_index->asset_type,         'currency';
+        is $basket_index->deep_otm_threshold, 0.05;
+
+        ok $basket_index->markups->apply_traded_markets_markup, 'Market Markup';
+        ok $basket_index->foreign_bs_probability;
+        ok $basket_index->absolute_barrier_multiplier;
+
+        cmp_deeply($basket_index->providers, [qw(smart)]);
+
+        is $basket_index->license, 'realtime';
+        ok !$basket_index->integer_barrier, 'non integer barrier';
     };
 };
 
