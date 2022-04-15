@@ -110,6 +110,7 @@ cryptocurrency:
     license: "realtime"
     providers:
         - 'oz'
+    max_suspend_trading_feed_delay: '15s'
 stocks:
     risk_profile: 'extreme_risk'
     base_commission: 0.05
