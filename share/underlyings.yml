@@ -3404,6 +3404,7 @@ frxAUDCADmicro:
   spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxAUDCADmicro
+  is_micro: 1
   uses_dst_shifted_seasonality: 0
 frxAUDCHF:
   asset: AUD
@@ -3446,6 +3447,7 @@ frxAUDCHFmicro:
   spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxAUDCHFmicro
+  is_micro: 1
   uses_dst_shifted_seasonality: 0
 frxAUDHKD:
   asset: AUD
@@ -3547,6 +3549,7 @@ frxAUDJPYmicro:
   spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxAUDJPYmicro
+  is_micro: 1
   uses_dst_shifted_seasonality: 0
 frxAUDMXN:
   asset: AUD
@@ -3628,6 +3631,7 @@ frxAUDNZDmicro:
   spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxAUDNZDmicro
+  is_micro: 1
   uses_dst_shifted_seasonality: 0
 frxAUDPLN:
   asset: AUD
@@ -3752,6 +3756,7 @@ frxAUDUSDmicro:
   spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxAUDUSDmicro
+  is_micro: 1
   uses_dst_shifted_seasonality: 0
 frxAUDZAR:
   asset: AUD
@@ -3979,6 +3984,7 @@ frxEURAUDmicro:
   spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxEURAUDmicro
+  is_micro: 1
   uses_dst_shifted_seasonality: 0
 frxEURCAD:
   asset: EUR
@@ -4021,6 +4027,7 @@ frxEURCADmicro:
   spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxEURCADmicro
+  is_micro: 1
   uses_dst_shifted_seasonality: 0
 frxEURCHF:
   asset: EUR
@@ -4062,6 +4069,7 @@ frxEURCHFmicro:
   spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxEURCHFmicro
+  is_micro: 1
   uses_dst_shifted_seasonality: 0
 frxEURGBP:
   asset: EUR
@@ -4104,6 +4112,7 @@ frxEURGBPmicro:
   spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxEURGBPmicro
+  is_micro: 1
   uses_dst_shifted_seasonality: 0
 frxEURHKD:
   asset: EUR
@@ -4226,6 +4235,7 @@ frxEURJPYmicro:
   spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxEURJPYmicro
+  is_micro: 1
   uses_dst_shifted_seasonality: 0
 frxEURMXN:
   asset: EUR
@@ -4308,6 +4318,7 @@ frxEURNZDmicro:
   spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxEURNZDmicro
+  is_micro: 1
   uses_dst_shifted_seasonality: 0
 frxEURPLN:
   asset: EUR
@@ -4436,6 +4447,7 @@ frxEURUSDmicro:
   spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxEURUSDmicro
+  is_micro: 1
   uses_dst_shifted_seasonality: 0
 frxEURZAR:
   asset: EUR
@@ -4584,6 +4596,7 @@ frxGBPCHFmicro:
   spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxGBPCHFmicro
+  is_micro: 1
   uses_dst_shifted_seasonality: 0
 frxGBPHKD:
   asset: GBP
@@ -4685,6 +4698,7 @@ frxGBPJPYmicro:
   spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxGBPJPYmicro
+  is_micro: 1
   uses_dst_shifted_seasonality: 0
 frxGBPMXN:
   asset: GBP
@@ -4873,6 +4887,7 @@ frxGBPUSDmicro:
   spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxGBPUSDmicro
+  is_micro: 1
   uses_dst_shifted_seasonality: 0
 frxGBPZAR:
   asset: GBP
@@ -5057,6 +5072,7 @@ frxNZDUSDmicro:
   spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxNZDUSDmicro
+  is_micro: 1
   uses_dst_shifted_seasonality: 0
 frxSGDJPY:
   asset: SGD
@@ -5581,6 +5597,7 @@ frxUSDCADmicro:
   spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxUSDCADmicro
+  is_micro: 1
   uses_dst_shifted_seasonality: 0
 frxUSDCDF:
   asset: USD
@@ -5647,6 +5664,7 @@ frxUSDCHFmicro:
   spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxUSDCHFmicro
+  is_micro: 1
   uses_dst_shifted_seasonality: 0
 frxUSDCLP:
   asset: USD
@@ -6354,6 +6372,7 @@ frxUSDJPYmicro:
   spot_spread_size: 6
   submarket: minor_pairs
   symbol: frxUSDJPYmicro
+  is_micro: 1
   uses_dst_shifted_seasonality: 0
 frxUSDKES:
   asset: USD

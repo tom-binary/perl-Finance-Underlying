@@ -34,7 +34,7 @@ use File::ShareDir ();
 use POSIX;
 use Format::Util::Numbers qw(roundcommon);
 
-my %underlyings;
+my (%underlyings, %inverted_underlyings);
 
 =head1 CLASS METHODS
 
@@ -105,7 +105,7 @@ sub by_symbol {
     $symbol =~ s/^CRY/cry/i;
     $symbol =~ s/^RAN/ran/i;
     $symbol =~ s/^STP/stp/i;
-    return $underlyings{$symbol} // die "unknown underlying $symbol";
+    return $underlyings{$symbol} // $inverted_underlyings{$symbol} // die "unknown underlying $symbol";
 }
 
 =head2 cached_underlyings
@@ -171,7 +171,9 @@ Categorises the underlying, available values are:
 
 =item * future
 
-=item * smart_fx
+=item * forex_basket
+
+=item * commodity_basket
 
 =item * stockindex
 
@@ -202,6 +204,8 @@ This will be one of the following:
 =item * indices
 
 =item * synthetic_index
+
+=item * basket_index
 
 =back
 
@@ -398,9 +402,62 @@ has inefficient_periods => (
     is => 'ro',
 );
 
+=head2 inverted
+
+Boolean which indicates if a symbol is inverted.
+
+=cut
+
+has inverted => (
+    is      => 'ro',
+    default => 0,
+);
+
+=head2 is_micro
+
+Boolean which indicates if this is a micro symbol. Only applicable to forex.
+
+=cut
+
+has is_micro => (
+    is      => 'ro',
+    default => 0,
+);
+
+=head2 as_hashref
+
+Returns a hash reference of symbol config
+
+=cut
+
+sub as_hashref {
+    my $self = shift;
+
+    my %hash = $self->%*;
+
+    return \%hash;
+}
+
 {
     my $param = LoadFile(File::ShareDir::dist_file('Finance-Underlying', 'underlyings.yml'));
-    %underlyings = map { ; $_ => __PACKAGE__->new($param->{$_}) } keys %$param;
+
+    foreach my $symbol (keys $param->%*) {
+        my $obj = __PACKAGE__->new($param->{$symbol});
+        # straight up initialise the potential inverted symbols for cleaner caller code.
+        if (not $obj->is_micro and ($obj->market eq 'forex' or $obj->market eq 'cryptocurrency' or $obj->market eq 'commodities')) {
+            my %inverted_params = $param->{$symbol}->%*;
+            $inverted_params{inverted}        = 1;
+            $inverted_params{asset}           = $obj->quoted_currency;
+            $inverted_params{quoted_currency} = $obj->asset;
+            my $symbol_prefix = $obj->market eq 'cryptocurrency' ? 'cry' : 'frx';
+            $inverted_params{symbol} = $symbol_prefix . $inverted_params{asset} . $inverted_params{quoted_currency};
+            $inverted_params{display_name} .= ' inverted';
+            $inverted_underlyings{$inverted_params{symbol}} = __PACKAGE__->new(\%inverted_params);
+        }
+
+        $underlyings{$symbol} = $obj;
+    }
+
 }
 
 1;
