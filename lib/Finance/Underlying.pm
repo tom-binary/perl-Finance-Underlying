@@ -33,6 +33,8 @@ use Scalar::Util qw(looks_like_number);
 use File::ShareDir ();
 use POSIX;
 use Format::Util::Numbers qw(roundcommon);
+use Finance::Underlying::SubMarket::Registry;
+use Finance::Underlying::Market::Registry;
 
 my (%underlyings, %inverted_underlyings);
 
@@ -380,7 +382,24 @@ has spot_spread_size => (
 
 has providers => (
     is => 'ro',
+    is => 'lazy',
 );
+
+=head2 _build_providers
+
+Return providers from SubMarket or Market
+
+=cut
+
+sub _build_providers {
+    my ($self) = @_;
+
+    my $providers = Finance::Underlying::SubMarket::Registry->get($self->submarket)->providers;
+    return $providers if defined $providers;
+
+    $providers = Finance::Underlying::Market::Registry->get($self->market)->providers;
+    return $providers || die "No provider is defined for " . $self->symbol;
+}
 
 has flat_smile => (
     is => 'ro',
@@ -395,7 +414,8 @@ has feed_license => (
 );
 
 has feed_failover => (
-    is => 'ro',
+    is      => 'ro',
+    default => 60,
 );
 
 has inefficient_periods => (

@@ -25,11 +25,15 @@ Finance::Underlying::Market::Types
 
 =cut
 
-subtype 'time_interval', as 'Time::Duration::Concise';
-coerce 'time_interval', from 'Str', via { Time::Duration::Concise->new(interval => $_) };
+unless (find_type_constraint('time_interval')) {
+  subtype 'time_interval', as 'Time::Duration::Concise';
+  coerce 'time_interval', from 'Str', via { Time::Duration::Concise->new(interval => $_) };
+}
 
-subtype 'date_object', as 'Date::Utility';
-coerce 'date_object', from 'Str', via { Date::Utility->new($_) };
+unless (find_type_constraint('date_object')) {
+  subtype 'date_object', as 'Date::Utility';
+  coerce 'date_object', from 'Str', via { Date::Utility->new($_) };
+}
 
 subtype 'financial_market', as 'Finance::Underlying::Market';
 coerce 'financial_market', from 'Str', via { return Finance::Underlying::Market::Registry->instance->get($_); };

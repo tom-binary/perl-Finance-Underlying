@@ -114,7 +114,7 @@ subtest 'Market builds or configs test' => sub {
 
         cmp_deeply($indices->providers, ['oz']);
 
-        is $indices->license, 'daily';
+        is $indices->license,         'daily';
         ok $indices->integer_barrier, 'Integer barrier';
     };
 
