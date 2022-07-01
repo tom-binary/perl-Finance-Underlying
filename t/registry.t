@@ -62,14 +62,12 @@ subtest 'Market builds or configs test' => sub {
         ok $forex->reduced_display_decimals;
         is $forex->asset_type,         'currency';
         is $forex->deep_otm_threshold, 0.05;
-
         ok $forex->markups->apply_traded_markets_markup, 'Market Markup';
         ok $forex->foreign_bs_probability;
         ok $forex->absolute_barrier_multiplier;
-
         cmp_deeply($forex->providers, [qw(idata bloomberg oz)]);
-
         is $forex->license, 'realtime';
+        is $forex->feed_parity, 0.01;
         ok !$forex->integer_barrier, 'non integer barrier';
     };
 
@@ -85,13 +83,12 @@ subtest 'Market builds or configs test' => sub {
         ok $commodities->reduced_display_decimals;
         is $commodities->deep_otm_threshold, 0.10;
         is $commodities->asset_type,         'currency';
-
         ok $commodities->markups->apply_traded_markets_markup, 'Market Markup';
         ok !$commodities->foreign_bs_probability;
         ok $commodities->absolute_barrier_multiplier;
-
         cmp_deeply($commodities->providers, ['bloomberg', 'idata', 'oz'],);
         is $commodities->license, 'realtime';
+        is $commodities->feed_parity, 0.04;
         ok !$commodities->integer_barrier, 'non integer barrier';
     };
 
@@ -107,14 +104,12 @@ subtest 'Market builds or configs test' => sub {
         ok !$indices->reduced_display_decimals;
         is $indices->deep_otm_threshold, 0.10;
         is $indices->asset_type,         'index';
-
         ok $indices->markups->apply_traded_markets_markup, 'Market Markup';
         ok !$indices->foreign_bs_probability;
         ok !$indices->absolute_barrier_multiplier;
-
         cmp_deeply($indices->providers, ['oz']);
-
         is $indices->license,         'daily';
+        is $indices->feed_parity,     0.02;
         ok $indices->integer_barrier, 'Integer barrier';
     };
 
@@ -133,9 +128,9 @@ subtest 'Market builds or configs test' => sub {
         ok !$random->markups->apply_traded_markets_markup, 'Market Markup';
         ok !$random->foreign_bs_probability;
         ok $random->absolute_barrier_multiplier;
-
         cmp_deeply($random->providers, ['random',]);
         is $random->license, 'realtime';
+        is $random->feed_parity, 0.01;
         ok !$random->integer_barrier, 'non integer barrier';
     };
 
@@ -155,9 +150,9 @@ subtest 'Market builds or configs test' => sub {
         ok !$crypto->foreign_bs_probability;
         ok !$crypto->absolute_barrier_multiplier;
         is $crypto->risk_profile, 'extreme_risk', 'risk_profile is extreme risk';
-
         cmp_deeply($crypto->providers, ['oz']);
         is $crypto->license, 'realtime';
+        is $crypto->feed_parity, 0.01;
         ok !$crypto->integer_barrier, 'non integer barrier';
     };
 
@@ -173,14 +168,12 @@ subtest 'Market builds or configs test' => sub {
         ok $basket_index->reduced_display_decimals;
         is $basket_index->asset_type,         'currency';
         is $basket_index->deep_otm_threshold, 0.05;
-
         ok $basket_index->markups->apply_traded_markets_markup, 'Market Markup';
         ok $basket_index->foreign_bs_probability;
         ok $basket_index->absolute_barrier_multiplier;
-
         cmp_deeply($basket_index->providers, [qw(smart)]);
-
         is $basket_index->license, 'realtime';
+        is $basket_index->feed_parity, 0.01;
         ok !$basket_index->integer_barrier, 'non integer barrier';
     };
 };

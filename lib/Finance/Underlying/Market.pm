@@ -214,6 +214,18 @@ has 'providers' => (
     default => sub { [] },
 );
 
+=head2 feed_parity
+
+maximum acceptable deviation from mean, how close must recent ticks be to consider status as good
+
+=cut
+
+has 'feed_parity' => (
+    is   => 'ro',
+    isa     => 'Num',
+    default => 0.01,
+);
+
 =head2 license
 
 The license we have for this feed.
