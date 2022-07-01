@@ -33,7 +33,7 @@ subtest 'flat_smile' => sub {
         'cryBTCEUR',   'cryBTCGBP',   'cryBTCJPY',   'cryBTCLTC',   'cryBTCNZD', 'cryBTCRUB',  'cryBTCXAG',   'cryBTCXAU',
         'cryBTCXRP',   'cryDSHUSD',   'cryETHEUR',   'cryIOTUSD',   'cryLTCEUR', 'cryNEOUSD',  'cryOMGUSD',   'cryTRXUSD',
         'cryXMLUSD',   'cryXMRUSD',   'cryXRPEUR',   'cryXRPUSD',   'cryEOSUSD', 'cryZECUSD',  'cryBCHUSDmf', 'cryBTCUSDmf',
-        'cryDSHUSDmf', 'cryEOSUSDmf', 'cryETHUSDmf', 'cryLTCUSDmf', 'cryXLMUSD'
+        'cryDSHUSDmf', 'cryEOSUSDmf', 'cryETHUSDmf', 'cryLTCUSDmf', 'cryXLMUSD', 'crytUSDTUSD'
     ];
     my $got = [grep { Finance::Underlying->by_symbol($_)->flat_smile } Finance::Underlying->symbols];
     cmp_bag $got, $expected, 'list of flat_smile matches';

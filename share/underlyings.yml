@@ -3342,6 +3342,20 @@ cryeUSDTUSD:
   quoted_currency: USD
   submarket: stable_coin
   symbol: cryeUSDTUSD
+crytUSDTUSD:
+  asset: tUSDT
+  display_name: tUSDT/USD
+  exchange_name: CRYPTOCURRENCY
+  flat_smile: 1
+  instrument_type: cryptocurrency
+  market: cryptocurrency
+  pip_size: 0.01
+  providers:
+  - bitfinex
+  quanto_only: 1
+  quoted_currency: USD
+  submarket: stable_coin
+  symbol: crytUSDTUSD
 frxAUDAED:
   asset: AUD
   display_name: AUD/AED
