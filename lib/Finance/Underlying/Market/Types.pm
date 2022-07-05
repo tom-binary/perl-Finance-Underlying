@@ -26,13 +26,13 @@ Finance::Underlying::Market::Types
 =cut
 
 unless (find_type_constraint('time_interval')) {
-  subtype 'time_interval', as 'Time::Duration::Concise';
-  coerce 'time_interval', from 'Str', via { Time::Duration::Concise->new(interval => $_) };
+    subtype 'time_interval', as 'Time::Duration::Concise';
+    coerce 'time_interval', from 'Str', via { Time::Duration::Concise->new(interval => $_) };
 }
 
 unless (find_type_constraint('date_object')) {
-  subtype 'date_object', as 'Date::Utility';
-  coerce 'date_object', from 'Str', via { Date::Utility->new($_) };
+    subtype 'date_object', as 'Date::Utility';
+    coerce 'date_object', from 'Str', via { Date::Utility->new($_) };
 }
 
 subtype 'financial_market', as 'Finance::Underlying::Market';
@@ -42,7 +42,7 @@ subtype 'submarket', as 'Finance::Underlying::SubMarket';
 coerce 'submarket', from 'Str', via { return Finance::Underlying::SubMarket::Registry->instance->get($_); };
 
 subtype 'market_markups', as 'Finance::Underlying::Market::Markups';
-coerce 'market_markups', from 'HashRef' => via { Finance::Underlying::Market::Markups->new($_); };
+coerce 'market_markups',  from 'HashRef' => via { Finance::Underlying::Market::Markups->new($_); };
 
 no Moose;
 no Moose::Util::TypeConstraints;
