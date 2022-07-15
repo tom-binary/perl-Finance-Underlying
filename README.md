@@ -49,10 +49,11 @@ Categorises the underlying, available values are:
 
 - commodities
 - forex
-- future
-- smart\_fx
+- forex\_basket
+- forex\_synthetics
+- individualstock
 - stockindex
-- synthetic
+- synthetic\_index
 
 ## market
 
@@ -61,10 +62,11 @@ The type of market for this underlying, for example `forex` for foreign exchange
 This will be one of the following:
 
 - commodities
+- cryptocurrency
 - forex
-- futures
 - indices
-- synthetic_index
+- stocks
+- synthetic\_index
 
 ## market\_convention
 

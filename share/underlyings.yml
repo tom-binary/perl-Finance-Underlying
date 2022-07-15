@@ -11,6 +11,146 @@
 # Steps to obtain Bloomberg vol convention for the market_convention section:
 # - Go to OVDV then Settings->Data Settings->Conventions
 ---
+USDJPYDFX10:
+  asset: USDJPYDFX10
+  display_name: USD/JPY DFX10 Index
+  exchange_name: FOREX
+  feed_license: realtime
+  instrument_type: forex_synthetics
+  is_generated: 1
+  market: synthetic_index
+  pip_size: 0.001
+  providers:
+   - forex_synthetics
+  quoted_currency: ''
+  submarket: forex_synthetics
+  symbol: USDJPYDFX10
+EURUSDDFX10:
+  asset: EURUSDDFX10
+  display_name: EUR/USD DFX10 Index
+  exchange_name: FOREX
+  feed_license: realtime
+  instrument_type: forex_synthetics
+  is_generated: 1
+  market: synthetic_index
+  pip_size: 0.00001
+  providers:
+   - forex_synthetics
+  quoted_currency: ''
+  submarket: forex_synthetics
+  symbol: EURUSDDFX10
+GBPUSDDFX10:
+  asset: GBPUSDDFX10
+  display_name: GBP/USD DFX10 Index
+  exchange_name: FOREX
+  feed_license: realtime
+  instrument_type: forex_synthetics
+  is_generated: 1
+  market: synthetic_index
+  pip_size: 0.001
+  providers:
+   - forex_synthetics
+  quoted_currency: ''
+  submarket: forex_synthetics
+  symbol: GBPUSDDFX10
+USDCHFDFX10:
+  asset: USDCHFDFX10
+  display_name: USD/CHF DFX10 Index
+  exchange_name: FOREX
+  feed_license: realtime
+  instrument_type: forex_synthetics
+  is_generated: 1
+  market: synthetic_index
+  pip_size: 0.001
+  providers:
+   - forex_synthetics
+  quoted_currency: ''
+  submarket: forex_synthetics
+  symbol: USDCHFDFX10
+AUDUSDDFX10:
+  asset: AUDUSDDFX10
+  display_name: AUD/USD DFX10 Index
+  exchange_name: FOREX
+  feed_license: realtime
+  instrument_type: forex_synthetics
+  is_generated: 1
+  market: synthetic_index
+  pip_size: 0.001
+  providers:
+   - forex_synthetics
+  quoted_currency: ''
+  submarket: forex_synthetics
+  symbol: AUDUSDDFX10
+USDJPYDFX100:
+  asset: USDJPYDFX100
+  display_name: USD/JPY DFX100 Index
+  exchange_name: FOREX
+  feed_license: realtime
+  instrument_type: forex_synthetics
+  is_generated: 1
+  market: synthetic_index
+  pip_size: 0.001
+  providers:
+   - forex_synthetics
+  quoted_currency: ''
+  submarket: forex_synthetics
+  symbol: USDJPYDFX100
+EURUSDDFX100:
+  asset: EURUSDDFX100
+  display_name: EUR/USD DFX100 Index
+  exchange_name: FOREX
+  feed_license: realtime
+  instrument_type: forex_synthetics
+  is_generated: 1
+  market: synthetic_index
+  pip_size: 0.001
+  providers:
+   - forex_synthetics
+  quoted_currency: ''
+  submarket: forex_synthetics
+  symbol: EURUSDDFX100
+GBPUSDDFX100:
+  asset: GBPUSDDFX100
+  display_name: GBP/USD DFX100 Index
+  exchange_name: FOREX
+  feed_license: realtime
+  instrument_type: forex_synthetics
+  is_generated: 1
+  market: synthetic_index
+  pip_size: 0.001
+  providers:
+   - forex_synthetics
+  quoted_currency: ''
+  submarket: forex_synthetics
+  symbol: GBPUSDDFX100
+USDCHFDFX100:
+  asset: USDCHFDFX100
+  display_name: USD/CHF DFX100 Index
+  exchange_name: FOREX
+  feed_license: realtime
+  instrument_type: forex_synthetics
+  is_generated: 1
+  market: synthetic_index
+  pip_size: 0.001
+  providers:
+   - forex_synthetics
+  quoted_currency: ''
+  submarket: forex_synthetics
+  symbol: USDCHFDFX100
+AUDUSDDFX100:
+  asset: AUDUSDDFX100
+  display_name: AUD/USD DFX100 Index
+  exchange_name: FOREX
+  feed_license: realtime
+  instrument_type: forex_synthetics
+  is_generated: 1
+  market: synthetic_index
+  pip_size: 0.001
+  providers:
+   - forex_synthetics
+  quoted_currency: ''
+  submarket: forex_synthetics
+  symbol: AUDUSDDFX100
 1HZ100V:
   asset: 1HZ100V
   display_name: Volatility 100 (1s) Index
