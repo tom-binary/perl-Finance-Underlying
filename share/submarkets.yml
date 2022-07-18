@@ -164,7 +164,7 @@ forex_synthetics:
     display_name: 'Forex Synthetic Indices'
     market: synthetic_index
     explanation: 'Forex Synthetic Indices follows price direction of forex pairs but with different volatility levels'
-    display_order: 15
+    display_order: 16
 us_otc_stock:
     name: us_otc_stock
     display_name: 'US'
