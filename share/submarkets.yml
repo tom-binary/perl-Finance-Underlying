@@ -159,6 +159,12 @@ jump_index:
     market: synthetic_index
     explanation: 'JD index follows normal distribution just as our R_* with a jump in both directions'
     display_order: 15
+forex_synthetics:
+    name: forex_synthetics
+    display_name: 'Forex Synthetic Indices'
+    market: synthetic_index
+    explanation: 'Forex Synthetic Indices follows price direction of forex pairs but with different volatility levels'
+    display_order: 16
 us_otc_stock:
     name: us_otc_stock
     display_name: 'US'
