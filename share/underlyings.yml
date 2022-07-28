@@ -33,7 +33,7 @@ EURUSDDFX10:
   instrument_type: forex_synthetics
   is_generated: 1
   market: synthetic_index
-  pip_size: 0.00001
+  pip_size: 0.001
   providers:
    - forex_synthetics
   quoted_currency: ''
