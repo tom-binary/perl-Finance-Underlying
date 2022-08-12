@@ -81,8 +81,8 @@ AUDUSDDFX10:
   quoted_currency: ''
   submarket: forex_synthetics
   symbol: AUDUSDDFX10
-USDJPYDFX100:
-  asset: USDJPYDFX100
+USDJPYDFX100N:
+  asset: USDJPYDFX100N
   display_name: USD/JPY DFX100 Index
   exchange_name: FOREX
   feed_license: realtime
@@ -94,9 +94,9 @@ USDJPYDFX100:
    - forex_synthetics
   quoted_currency: ''
   submarket: forex_synthetics
-  symbol: USDJPYDFX100
-EURUSDDFX100:
-  asset: EURUSDDFX100
+  symbol: USDJPYDFX100N
+EURUSDDFX100N:
+  asset: EURUSDDFX100N
   display_name: EUR/USD DFX100 Index
   exchange_name: FOREX
   feed_license: realtime
@@ -108,9 +108,9 @@ EURUSDDFX100:
    - forex_synthetics
   quoted_currency: ''
   submarket: forex_synthetics
-  symbol: EURUSDDFX100
-GBPUSDDFX100:
-  asset: GBPUSDDFX100
+  symbol: EURUSDDFX100N
+GBPUSDDFX100N:
+  asset: GBPUSDDFX100N
   display_name: GBP/USD DFX100 Index
   exchange_name: FOREX
   feed_license: realtime
@@ -122,9 +122,9 @@ GBPUSDDFX100:
    - forex_synthetics
   quoted_currency: ''
   submarket: forex_synthetics
-  symbol: GBPUSDDFX100
-USDCHFDFX100:
-  asset: USDCHFDFX100
+  symbol: GBPUSDDFX100N
+USDCHFDFX100N:
+  asset: USDCHFDFX100N
   display_name: USD/CHF DFX100 Index
   exchange_name: FOREX
   feed_license: realtime
@@ -136,9 +136,9 @@ USDCHFDFX100:
    - forex_synthetics
   quoted_currency: ''
   submarket: forex_synthetics
-  symbol: USDCHFDFX100
-AUDUSDDFX100:
-  asset: AUDUSDDFX100
+  symbol: USDCHFDFX100N
+AUDUSDDFX100N:
+  asset: AUDUSDDFX100N
   display_name: AUD/USD DFX100 Index
   exchange_name: FOREX
   feed_license: realtime
@@ -150,7 +150,7 @@ AUDUSDDFX100:
    - forex_synthetics
   quoted_currency: ''
   submarket: forex_synthetics
-  symbol: AUDUSDDFX100
+  symbol: AUDUSDDFX100N
 1HZ100V:
   asset: 1HZ100V
   display_name: Volatility 100 (1s) Index
