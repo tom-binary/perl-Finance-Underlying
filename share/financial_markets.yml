@@ -42,25 +42,6 @@ forex:
         - 'oz'
     markups:
         apply_traded_markets_markup: 1
-basket_index:
-    risk_profile: 'medium_risk'
-    volatility_surface_type: "delta"
-    display_current_spot: 1
-    suspicious_move: 0.05
-    deep_otm_threshold: 0.05
-    display_name: "Basket Indices"
-    display_order: 5
-    reduced_display_decimals: 1
-    asset_type: 'currency'
-    foreign_bs_probability: 1
-    absolute_barrier_multiplier: 1
-    explanation: 'Weighted  indices that measure the value of a currency against a basket of major currencies.'
-    license: "realtime"
-    feed_parity: 0.01
-    providers:
-        - 'smart'
-    markups:
-        apply_traded_markets_markup: 1
 indices:
     risk_profile: 'medium_risk'
     volatility_surface_type: "moneyness"
@@ -85,7 +66,7 @@ synthetic_index:
     risk_profile: 'low_risk'
     display_current_spot: 1
     suspicious_move: 0.5
-    display_name: "Synthetic Indices"
+    display_name: "Derived"
     volatility_surface_type: "flat"
     deep_otm_threshold: 0.025
     display_order: 4
@@ -126,7 +107,7 @@ stocks:
     eod_blackout_expiry: '1m'
     eod_blackout_start: '1h'
     sod_blackout_start: '10m'
-    display_order: 3
+    display_order: 5
     absolute_barrier_multiplier: 1
     prefer_discrete_dividend: 1
     affected_by_corporate_actions: 1

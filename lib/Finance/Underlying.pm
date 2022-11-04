@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use feature 'state';
 
-our $VERSION = '0.005';
+our $VERSION = '0.006';
 
 =head1 NAME
 
@@ -206,8 +206,6 @@ This will be one of the following:
 =item * indices
 
 =item * synthetic_index
-
-=item * basket_index
 
 =back
 

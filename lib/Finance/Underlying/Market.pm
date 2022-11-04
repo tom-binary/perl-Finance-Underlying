@@ -221,7 +221,7 @@ maximum acceptable deviation from mean, how close must recent ticks be to consid
 =cut
 
 has 'feed_parity' => (
-    is   => 'ro',
+    is      => 'ro',
     isa     => 'Num',
     default => 0.01,
 );

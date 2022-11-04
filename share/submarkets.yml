@@ -10,6 +10,10 @@ random_index:
     market: synthetic_index
     explanation: 'Associated with a number that represents the relative volatility of the market. For example, the Volatility 100 Index is twice as volatile as the Volatility 50 Index.'
     always_available: 1
+    is_rng: 1
+    subgroup:
+      name: 'synthetics'
+      display_name: 'Synthetics'
 random_daily:
     name: random_daily
     display_name: "Daily Reset Indices"
@@ -21,6 +25,82 @@ random_daily:
     explanation: 'Represent a single day of trading with different market factors. They are reset at the start of each trading day (00:00GMT).'
     sod_blackout_start: '1m'
     eod_blackout_expiry: '59s'
+    is_rng: 1
+    subgroup:
+      name: 'synthetics'
+      display_name: 'Synthetics'
+forex_basket:
+    name: forex_basket
+    display_name: 'Forex Basket'
+    display_order: 3
+    market: synthetic_index
+    is_OTC: 1
+    asset_type: 'currency'
+    explanation: 'basket indices'
+    risk_profile: 'moderate_risk'
+    volatility_surface_type: 'delta'
+    subgroup:
+      name: 'baskets'
+      display_name: 'Baskets'
+commodity_basket:
+    name: commodity_basket
+    display_name: 'Commodities Basket'
+    display_order: 4
+    market: synthetic_index
+    is_OTC: 1
+    asset_type: 'currency'
+    explanation: 'basket indices'
+    risk_profile: 'moderate_risk'
+    volatility_surface_type: 'delta'
+    subgroup:
+      name: 'baskets'
+      display_name: 'Baskets'
+step_index:
+    name: step_index
+    display_name: 'Step Indices'
+    market: synthetic_index
+    explanation: 'Indices derived from actual financial instruments or pure randomness.'
+    display_order: 5
+    is_rng: 1
+    subgroup:
+      name: 'synthetics'
+      display_name: 'Synthetics'
+crash_index:
+    name: crash_index
+    display_name: 'Crash/Boom Indices'
+    market: synthetic_index
+    explanation: 'Indices derived from pure randomness.'
+    display_order: 6
+    is_rng: 1
+    subgroup:
+      name: 'synthetics'
+      display_name: 'Synthetics'
+range_index:
+    name: range_index
+    display_name: 'Range Break Indices'
+    market: synthetic_index
+    explanation: 'Indices derived from pure randomness.'
+    display_order: 7
+    is_rng: 1
+    subgroup:
+      name: 'synthetics'
+      display_name: 'Synthetics'
+jump_index:
+    name: jump_index
+    display_name: 'Jump Indices'
+    market: synthetic_index
+    explanation: 'JD index follows normal distribution just as our R_* with a jump in both directions'
+    display_order: 8
+    is_rng: 1
+    subgroup:
+      name: 'synthetics'
+      display_name: 'Synthetics'
+forex_synthetics:
+    name: forex_synthetics
+    display_name: 'Forex Synthetic Indices'
+    market: synthetic_index
+    explanation: 'Forex Synthetic Indices follows price direction of forex pairs but with different volatility levels'
+    display_order: 9
 asia_oceania_OTC:
     name: asia_oceania_OTC
     display_name: "Asia/Oceania"
@@ -39,34 +119,25 @@ americas_OTC:
     display_order: 3
     is_OTC: 1
     market: indices
-smart_index:
-    name: smart_index
-    display_name: 'Smart Indices'
-    display_order: 4
-    asset_type: 'index'
-    is_OTC: 1
-    market: indices
-    explanation: 'Smart Indices'
-    volatility_surface_type: "moneyness"
 middle_east:
     name: middle_east
     display_name: 'Middle East'
-    display_order: 5
+    display_order: 4
     market: indices
 asia_oceania:
     name: asia_oceania
     display_name: "Asia/Oceania"
-    display_order: 6
+    display_order: 5
     market: indices
 europe_africa:
     name: europe_africa
     display_name: "Europe"
-    display_order: 7
+    display_order: 6
     market: indices
 americas:
     name: americas
     display_name: "Americas"
-    display_order: 8
+    display_order: 7
     market: indices
 major_pairs:
     name: major_pairs
@@ -90,24 +161,6 @@ minor_pairs:
         - 'bloomberg'
         - 'idata'
         - 'oz'
-forex_basket:
-    name: forex_basket
-    display_name: 'Forex Basket'
-    display_order: 1
-    market: basket_index
-    is_OTC: 1
-    asset_type: 'currency'
-    explanation: 'basket indices'
-    risk_profile: 'moderate_risk'
-commodity_basket:
-    name: commodity_basket
-    display_name: 'Commodities Basket'
-    display_order: 2
-    market: basket_index
-    is_OTC: 1
-    asset_type: 'currency'
-    explanation: 'basket indices'
-    risk_profile: 'moderate_risk'
 metals:
     name: metals
     display_name: "Metals"
@@ -127,44 +180,14 @@ stable_coin:
     asset_type: 'digital'
     market: cryptocurrency
     explanation: 'USD pegged coins'
-    display_order: 12
+    display_order: 1
 non_stable_coin:
     name: non_stable_coin
     display_name: 'Cryptocurrencies'
     asset_type: 'digital'
     market: cryptocurrency
     explanation: 'Cryptocurrency'
-    display_order: 12
-step_index:
-    name: step_index
-    display_name: 'Step Indices'
-    market: synthetic_index
-    explanation: 'Indices derived from actual financial instruments or pure randomness.'
-    display_order: 13
-crash_index:
-    name: crash_index
-    display_name: 'Crash/Boom Indices'
-    market: synthetic_index
-    explanation: 'Indices derived from pure randomness.'
-    display_order: 13
-range_index:
-    name: range_index
-    display_name: 'Range Break Indices'
-    market: synthetic_index
-    explanation: 'Indices derived from pure randomness.'
-    display_order: 14
-jump_index:
-    name: jump_index
-    display_name: 'Jump Indices'
-    market: synthetic_index
-    explanation: 'JD index follows normal distribution just as our R_* with a jump in both directions'
-    display_order: 15
-forex_synthetics:
-    name: forex_synthetics
-    display_name: 'Forex Synthetic Indices'
-    market: synthetic_index
-    explanation: 'Forex Synthetic Indices follows price direction of forex pairs but with different volatility levels'
-    display_order: 16
+    display_order: 2
 us_otc_stock:
     name: us_otc_stock
     display_name: 'US'

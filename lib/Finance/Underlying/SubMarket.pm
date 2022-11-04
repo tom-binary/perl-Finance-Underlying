@@ -180,6 +180,32 @@ has risk_profile => (
     default => undef,
 );
 
+=head2 is_rng
+
+A boolean to indicate if feed generation relies on Random Number Generator (RNG)
+
+=cut
+
+has is_rng => (
+    is      => 'ro',
+    default => 0,
+);
+
+=head2 subgroup
+
+Another layer between market and submarket.
+
+=cut
+
+has subgroup => (
+    is      => 'ro',
+    default => sub {
+        return {
+            name         => 'none',
+            display_name => 'None',
+        };
+    });
+
 no Moose;
 __PACKAGE__->meta->make_immutable;
 

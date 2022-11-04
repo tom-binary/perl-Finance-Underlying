@@ -25,7 +25,7 @@ subtest 'display_markets' => sub {
     my $registry = Finance::Underlying::Market::Registry->instance;
 
     eq_or_diff [sort map { $_->name } $registry->display_markets],
-        [sort 'forex', 'cryptocurrency', 'indices', 'commodities', 'stocks', 'synthetic_index', 'basket_index'], "correct list of financial markets";
+        [sort 'forex', 'cryptocurrency', 'indices', 'commodities', 'stocks', 'synthetic_index'], "correct list of financial markets";
 };
 
 subtest 'Market builds or configs test' => sub {
@@ -66,7 +66,7 @@ subtest 'Market builds or configs test' => sub {
         ok $forex->foreign_bs_probability;
         ok $forex->absolute_barrier_multiplier;
         cmp_deeply($forex->providers, [qw(idata bloomberg oz)]);
-        is $forex->license, 'realtime';
+        is $forex->license,     'realtime';
         is $forex->feed_parity, 0.01;
         ok !$forex->integer_barrier, 'non integer barrier';
     };
@@ -87,7 +87,7 @@ subtest 'Market builds or configs test' => sub {
         ok !$commodities->foreign_bs_probability;
         ok $commodities->absolute_barrier_multiplier;
         cmp_deeply($commodities->providers, ['bloomberg', 'idata', 'oz'],);
-        is $commodities->license, 'realtime';
+        is $commodities->license,     'realtime';
         is $commodities->feed_parity, 0.04;
         ok !$commodities->integer_barrier, 'non integer barrier';
     };
@@ -119,7 +119,7 @@ subtest 'Market builds or configs test' => sub {
         my $random = $registry->get('synthetic_index');
 
         isa_ok $random, 'Finance::Underlying::Market';
-        is $random->display_name,  'Synthetic Indices';
+        is $random->display_name,  'Derived';
         is $random->display_order, 4;
         ok !$random->equity;
         ok $random->reduced_display_decimals;
@@ -129,7 +129,7 @@ subtest 'Market builds or configs test' => sub {
         ok !$random->foreign_bs_probability;
         ok $random->absolute_barrier_multiplier;
         cmp_deeply($random->providers, ['random',]);
-        is $random->license, 'realtime';
+        is $random->license,     'realtime';
         is $random->feed_parity, 0.01;
         ok !$random->integer_barrier, 'non integer barrier';
     };
@@ -151,30 +151,9 @@ subtest 'Market builds or configs test' => sub {
         ok !$crypto->absolute_barrier_multiplier;
         is $crypto->risk_profile, 'extreme_risk', 'risk_profile is extreme risk';
         cmp_deeply($crypto->providers, ['oz']);
-        is $crypto->license, 'realtime';
+        is $crypto->license,     'realtime';
         is $crypto->feed_parity, 0.01;
         ok !$crypto->integer_barrier, 'non integer barrier';
-    };
-
-    subtest 'basket_index' => sub {
-        my $registry = Finance::Underlying::Market::Registry->instance;
-
-        my $basket_index = $registry->get('basket_index');
-
-        isa_ok $basket_index, 'Finance::Underlying::Market';
-        is $basket_index->display_name, 'Basket Indices', 'Correct display name';
-        is $basket_index->display_order, 5;
-        ok !$basket_index->equity;
-        ok $basket_index->reduced_display_decimals;
-        is $basket_index->asset_type,         'currency';
-        is $basket_index->deep_otm_threshold, 0.05;
-        ok $basket_index->markups->apply_traded_markets_markup, 'Market Markup';
-        ok $basket_index->foreign_bs_probability;
-        ok $basket_index->absolute_barrier_multiplier;
-        cmp_deeply($basket_index->providers, [qw(smart)]);
-        is $basket_index->license, 'realtime';
-        is $basket_index->feed_parity, 0.01;
-        ok !$basket_index->integer_barrier, 'non integer barrier';
     };
 };
 

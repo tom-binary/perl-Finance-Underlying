@@ -8,7 +8,7 @@ use Finance::Underlying::SubMarket::Registry;
 use Finance::Underlying::SubMarket;
 
 subtest 'Finance::Underlying::SubMarket::Registry' => sub {
-    plan tests => 24;
+    plan tests => 20;
 
     my $random_daily = Finance::Underlying::SubMarket::Registry->instance->get('random_daily');
     is($random_daily->name,         'random_daily',        'name');
@@ -20,10 +20,9 @@ subtest 'Finance::Underlying::SubMarket::Registry' => sub {
 
     my %markets = (
         forex           => 2,
-        synthetic_index => 7,
-        indices         => 8,
+        synthetic_index => 9,
+        indices         => 7,
         commodities     => 2,
-        basket_index    => 2,
     );
 
     foreach my $market (keys %markets) {

@@ -1,3 +1,4 @@
+---
 # For indices and equities:
 # - The volatilities are not quoted as RR, ATM and BF, infact they are quoted in
 # vol/delta. Hence we no need to worry about their convention for now.
@@ -10,7 +11,7 @@
 #
 # Steps to obtain Bloomberg vol convention for the market_convention section:
 # - Go to OVDV then Settings->Data Settings->Conventions
----
+
 USDJPYDFX10:
   asset: USDJPYDFX10
   display_name: USD/JPY DFX10 Index
@@ -2393,7 +2394,7 @@ WLDAUD:
   forward_feed: 0
   instrument_type: forex_basket
   is_generated: 1
-  market: basket_index
+  market: synthetic_index
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
@@ -2413,7 +2414,7 @@ WLDEUR:
   forward_feed: 0
   instrument_type: forex_basket
   is_generated: 1
-  market: basket_index
+  market: synthetic_index
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
@@ -2433,7 +2434,7 @@ WLDGBP:
   forward_feed: 0
   instrument_type: forex_basket
   is_generated: 1
-  market: basket_index
+  market: synthetic_index
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
@@ -2453,7 +2454,7 @@ WLDUSD:
   forward_feed: 0
   instrument_type: forex_basket
   is_generated: 1
-  market: basket_index
+  market: synthetic_index
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
@@ -2473,7 +2474,7 @@ WLDXAU:
   forward_feed: 0
   instrument_type: commodity_basket
   is_generated: 1
-  market: basket_index
+  market: synthetic_index
   market_convention:
     delta_premium_adjusted: 0
     delta_style: spot_delta
