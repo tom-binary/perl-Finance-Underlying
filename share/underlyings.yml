@@ -172,6 +172,26 @@ AUDUSDDFX100N:
   spot_spread_size: 0
   submarket: random_index
   symbol: 1HZ100V
+1HZ150V:
+  asset: 1HZ150V
+  display_name: Volatility 150 (1s) Index
+  exchange_name: RANDOM
+  feed_license: realtime
+  generation_interval: 1s
+  instrument_type: stockindex
+  is_generated: 1
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  providers:
+  - random1hz
+  quoted_currency: ''
+  spot_spread_size: 0
+  submarket: random_index
+  symbol: 1HZ150V
 1HZ10V:
   asset: 1HZ10V
   display_name: Volatility 10 (1s) Index
@@ -210,6 +230,24 @@ AUDUSDDFX100N:
   spot_spread_size: 0
   submarket: random_index
   symbol: 1HZ200V
+1HZ250V:
+  asset: 1HZ250V
+  display_name: Volatility 250 (1s) Index
+  exchange_name: RANDOM
+  feed_license: realtime
+  generation_interval: 1s
+  instrument_type: stockindex
+  is_generated: 1
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  quoted_currency: ''
+  spot_spread_size: 0
+  submarket: random_index
+  symbol: 1HZ250V
 1HZ25V:
   asset: 1HZ25V
   display_name: Volatility 25 (1s) Index
