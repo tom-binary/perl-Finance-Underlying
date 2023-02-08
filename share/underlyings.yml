@@ -152,6 +152,76 @@ AUDUSDDFX100N:
   quoted_currency: ''
   submarket: forex_synthetics
   symbol: AUDUSDDFX100N
+USDJPYDFX20:
+  asset: USDJPYDFX20
+  display_name: USD/JPY DFX20 Index
+  exchange_name: FOREX
+  feed_license: realtime
+  instrument_type: forex_synthetics
+  is_generated: 1
+  market: synthetic_index
+  pip_size: 0.001
+  providers:
+   - forex_synthetics
+  quoted_currency: ''
+  submarket: forex_synthetics
+  symbol: USDJPYDFX20
+EURUSDDFX20:
+  asset: EURUSDDFX20
+  display_name: EUR/USD DFX20 Index
+  exchange_name: FOREX
+  feed_license: realtime
+  instrument_type: forex_synthetics
+  is_generated: 1
+  market: synthetic_index
+  pip_size: 0.001
+  providers:
+   - forex_synthetics
+  quoted_currency: ''
+  submarket: forex_synthetics
+  symbol: EURUSDDFX20
+GBPUSDDFX20:
+  asset: GBPUSDDFX20
+  display_name: GBP/USD DFX20 Index
+  exchange_name: FOREX
+  feed_license: realtime
+  instrument_type: forex_synthetics
+  is_generated: 1
+  market: synthetic_index
+  pip_size: 0.001
+  providers:
+   - forex_synthetics
+  quoted_currency: ''
+  submarket: forex_synthetics
+  symbol: GBPUSDDFX20
+USDCHFDFX20:
+  asset: USDCHFDFX20
+  display_name: USD/CHF DFX20 Index
+  exchange_name: FOREX
+  feed_license: realtime
+  instrument_type: forex_synthetics
+  is_generated: 1
+  market: synthetic_index
+  pip_size: 0.001
+  providers:
+   - forex_synthetics
+  quoted_currency: ''
+  submarket: forex_synthetics
+  symbol: USDCHFDFX20
+AUDUSDDFX20:
+  asset: AUDUSDDFX20
+  display_name: AUD/USD DFX20 Index
+  exchange_name: FOREX
+  feed_license: realtime
+  instrument_type: forex_synthetics
+  is_generated: 1
+  market: synthetic_index
+  pip_size: 0.001
+  providers:
+   - forex_synthetics
+  quoted_currency: ''
+  submarket: forex_synthetics
+  symbol: AUDUSDDFX20
 1HZ100V:
   asset: 1HZ100V
   display_name: Volatility 100 (1s) Index
