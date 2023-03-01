@@ -8538,3 +8538,438 @@ stpRNG:
   quoted_currency: ''
   submarket: step_index
   symbol: stpRNG
+AGG.US:  
+  asset: AGG
+  display_name: iShares Core US Aggregate Bond ETF CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: AGG.US
+ARKK.US:  
+  asset: ARKK
+  display_name: ARK Innovation ETF CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: ARKK.US
+DIA.US:  
+  asset: DIA
+  display_name: SPDR Dow Jones Industrial Average ETF Trust CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: DIA.US
+EEM.US:  
+  asset: EEM
+  display_name: iShares MSCI Emerging Index Fund ETF CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: EEM.US
+EFA.US:  
+  asset: EFA
+  display_name: iShares MSCI EAFE ETF CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: EFA.US
+ERX.US:  
+  asset: ERX
+  display_name: Direxion Daily Energy Bull 2x Shares CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: ERX.US
+GDX.US:  
+  asset: GDX
+  display_name: Market Vectors Gold Miners ETF CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: GDX.US
+GLD.US:  
+  asset: GLD
+  display_name: SPDR Gold Trust CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: GLD.US
+HYG.US:  
+  asset: HYG
+  display_name: iShares iBoxx $ High Yield Corporate Bond ETF CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: HYG.US
+IEMG.US:  
+  asset: IEMG
+  display_name: iShares Core MSCI Emerging Markets ETF CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: IEMG.US
+IJR.US:  
+  asset: IJR
+  display_name: iShares core S&P Small-Cap ETF CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: IJR.US
+IVV.US:  
+  asset: IVV
+  display_name: iShares Core S&P 500 ETF CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: IVV.US
+IVW.US:  
+  asset: IVW
+  display_name: iShares S&P 500 Growth ETF CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: IVW.US
+IWM.US:  
+  asset: IWM
+  display_name: iShares Russell 2000 ETF CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: IWM.US
+LQD.US:  
+  asset: LQD
+  display_name: iShares iBoxx $ Inv Grade Corporate Bond ETF CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: LQD.US
+QID.US:  
+  asset: QID
+  display_name: ProShares UltraShort QQQ ETF CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: QID.US
+SDS.US:  
+  asset: SDS
+  display_name: ProShares UltraShort S&P500 CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: SDS.US
+SLV.US:  
+  asset: SLV
+  display_name: iShares Silver Trust CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: SLV.US
+SPXS.US:  
+  asset: SPXS
+  display_name: Direxion Daily S&P 500 Bear 3X Shares ETF CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: SPXS.US
+SPY.US:  
+  asset: SPY
+  display_name: Spdr S&P 500 ETF CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: SPY.US
+TBT.US:  
+  asset: TBT
+  display_name: ProShares UltraShort 20+ Year Treasury CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: TBT.US
+TQQQ.US:  
+  asset: TQQQ
+  display_name: ProShares UltraPro QQQ ETF CFD
+  exchange_name: NASDAQ
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: TQQQ.US
+UNG.US:  
+  asset: UNG
+  display_name: United States Natural Gas ETF CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: UNG.US
+VEA.US:  
+  asset: VEA
+  display_name: Vanguard Developed Markets Index Fund ETF CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: VEA.US
+VNQ.US:  
+  asset: VNQ
+  display_name: iShares Core S&P Small-Cap ETF CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: VNQ.US
+VOO.US:  
+  asset: VOO
+  display_name: Vanguard 500 Index Fund ETF CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: VOO.US
+VTI.US:  
+  asset: VTI
+  display_name: Vanguard Total Stock Market Index Fund ETF CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: VTI.US
+VWO.US:  
+  asset: VWO
+  display_name: Vanguard Emerging Markets Stock Index Fund ETF CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: VWO.US
+XLE.US:  
+  asset: XLE
+  display_name: Energy Select Sector SPDR Fund ETF CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: XLE.US
+XLF.US:  
+  asset: XLF
+  display_name: Financial Select Sector SPDR ETF CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: XLF.US
+XLK.US:  
+  asset: XLK
+  display_name: Technology Select Sector SPDR ETF CFD
+  exchange_name: NYSE
+  feed_license: realtime
+  instrument_type: exchange_traded_funds
+  market: indices
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  pip_size: 0.01
+  quoted_currency: USD
+  submarket: americas
+  symbol: XLK.US
+  
