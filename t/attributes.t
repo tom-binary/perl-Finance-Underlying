@@ -25,7 +25,7 @@ subtest 'general' => sub {
         },
         'is_generated'    => 0,
         'is_micro'        => 0,
-        'display_name'    => 'French Index',
+        'display_name'    => 'France 40',
         'instrument_type' => 'stockindex',
         'feed_failover'   => 60,
         'feed_license'    => 'realtime',

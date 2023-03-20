@@ -103,19 +103,19 @@ forex_synthetics:
     display_order: 9
 asia_oceania_OTC:
     name: asia_oceania_OTC
-    display_name: "Asia/Oceania"
+    display_name: "Asian indices"
     is_OTC: 1
     display_order: 1
     market: indices
 europe_OTC:
     name: europe_OTC
-    display_name: "Europe"
+    display_name: "European indices"
     display_order: 2
     is_OTC: 1
     market: indices
 americas_OTC:
     name: americas_OTC
-    display_name: "Americas"
+    display_name: "American indices"
     display_order: 3
     is_OTC: 1
     market: indices

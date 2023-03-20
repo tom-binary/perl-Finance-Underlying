@@ -413,7 +413,7 @@ ADSMI:
   symbol: ADSMI
 AEX:
   asset: AEX
-  display_name: Dutch Index
+  display_name: Netherlands 25
   exchange_name: EURONEXT
   feed_license: realtime
   instrument_type: stockindex
@@ -441,7 +441,7 @@ AORD:
   symbol: AORD
 AS51:
   asset: AS51
-  display_name: Australian Index
+  display_name: Australia 200
   exchange_name: ASX
   feed_license: chartonly
   instrument_type: stockindex
@@ -778,7 +778,7 @@ DFMGI:
   symbol: DFMGI
 DJI:
   asset: DJI
-  display_name: Wall Street Index
+  display_name: Wall Street 30
   exchange_name: NYSE
   feed_license: chartonly
   instrument_type: stockindex
@@ -807,7 +807,7 @@ EGX30:
   symbol: EGX30
 FCHI:
   asset: FCHI
-  display_name: French Index
+  display_name: France 40
   exchange_name: EURONEXT
   feed_license: realtime
   instrument_type: stockindex
@@ -849,7 +849,7 @@ FRAIRF:
   symbol: FRAIRF
 FTSE:
   asset: FTSE
-  display_name: UK Index
+  display_name: UK 100
   exchange_name: LSE
   feed_license: chartonly
   instrument_type: stockindex
@@ -877,7 +877,7 @@ FTSEMIB:
   symbol: FTSEMIB
 GDAXI:
   asset: GDAXI
-  display_name: German Index
+  display_name: Germany 40
   exchange_name: FSE
   feed_license: delayed
   instrument_type: stockindex
@@ -905,7 +905,7 @@ HSCEI:
   symbol: HSCEI
 HSI:
   asset: HSI
-  display_name: Hong Kong Index
+  display_name: Hong Kong 50
   exchange_name: HKSE
   feed_license: delayed
   instrument_type: stockindex
@@ -1147,7 +1147,7 @@ N150:
   symbol: N150
 N225:
   asset: N225
-  display_name: Japanese Index
+  display_name: Japan 225
   exchange_name: TSE
   feed_license: daily
   instrument_type: stockindex
@@ -1161,7 +1161,7 @@ N225:
   symbol: N225
 NDX:
   asset: NDX
-  display_name: US Tech 100 Index
+  display_name: US Tech 100
   exchange_name: NASDAQ_INDEX
   feed_license: daily
   instrument_type: stockindex
@@ -1203,7 +1203,7 @@ OMXS30:
   symbol: OMXS30
 OTC_AEX:
   asset: OTC_AEX
-  display_name: Dutch Index
+  display_name: Netherlands 25
   exchange_name: EURONEXT_OTC
   feed_failover: 1200
   feed_license: realtime
@@ -1220,7 +1220,7 @@ OTC_AEX:
   symbol: OTC_AEX
 OTC_AS51:
   asset: OTC_AS51
-  display_name: Australian Index
+  display_name: Australia 200
   exchange_name: ASX_OTC
   feed_failover: 900
   feed_license: realtime
@@ -1237,7 +1237,7 @@ OTC_AS51:
   symbol: OTC_AS51
 OTC_DJI:
   asset: OTC_DJI
-  display_name: Wall Street Index
+  display_name: Wall Street 30
   exchange_name: NYSE_OTC
   feed_license: realtime
   instrument_type: stockindex
@@ -1253,7 +1253,7 @@ OTC_DJI:
   symbol: OTC_DJI
 OTC_FCHI:
   asset: OTC_FCHI
-  display_name: French Index
+  display_name: France 40
   exchange_name: EURONEXT_OTC
   feed_license: realtime
   instrument_type: stockindex
@@ -1269,7 +1269,7 @@ OTC_FCHI:
   symbol: OTC_FCHI
 OTC_FTSE:
   asset: OTC_FTSE
-  display_name: UK Index
+  display_name: UK 100
   exchange_name: LSE_OTC
   feed_license: realtime
   instrument_type: stockindex
@@ -1285,7 +1285,7 @@ OTC_FTSE:
   symbol: OTC_FTSE
 OTC_GDAXI:
   asset: OTC_GDAXI
-  display_name: German Index
+  display_name: Germany 40
   exchange_name: FSE_OTC
   feed_license: realtime
   instrument_type: stockindex
@@ -1301,7 +1301,7 @@ OTC_GDAXI:
   symbol: OTC_GDAXI
 OTC_HSI:
   asset: OTC_HSI
-  display_name: Hong Kong Index
+  display_name: Hong Kong 50
   exchange_name: HKSE_OTC
   feed_license: realtime
   instrument_type: stockindex
@@ -1334,7 +1334,7 @@ OTC_IBEX35:
   symbol: OTC_IBEX35
 OTC_N225:
   asset: OTC_N225
-  display_name: Japanese Index
+  display_name: Japan 225
   exchange_name: TSE_OTC
   feed_failover: 1800
   feed_license: realtime
@@ -1351,7 +1351,7 @@ OTC_N225:
   symbol: OTC_N225
 OTC_NDX:
   asset: OTC_NDX
-  display_name: US Tech Index
+  display_name: US Tech 100
   exchange_name: NASDAQ_OTC
   feed_license: realtime
   instrument_type: stockindex
@@ -1367,7 +1367,7 @@ OTC_NDX:
   symbol: OTC_NDX
 OTC_SPC:
   asset: OTC_SPC
-  display_name: US Index
+  display_name: US 500
   exchange_name: NYSE_SPC_OTC
   feed_license: realtime
   instrument_type: stockindex
@@ -1383,7 +1383,7 @@ OTC_SPC:
   symbol: OTC_SPC
 OTC_SSMI:
   asset: OTC_SSMI
-  display_name: Swiss Index
+  display_name: Swiss 20
   exchange_name: SWX_OTC
   feed_failover: 900
   feed_license: realtime
@@ -1400,7 +1400,7 @@ OTC_SSMI:
   symbol: OTC_SSMI
 OTC_SX5E:
   asset: OTC_SX5E
-  display_name: Euro 50 Index
+  display_name: Euro 50
   exchange_name: STOXX_OTC
   feed_failover: 1800
   feed_license: realtime
@@ -1609,7 +1609,7 @@ SASEIDX:
   symbol: SASEIDX
 SPC:
   asset: SPC
-  display_name: US Index
+  display_name: US 500
   exchange_name: NYSE_SPC
   feed_license: chartonly
   instrument_type: stockindex
@@ -1651,7 +1651,7 @@ SSECOMP:
   symbol: SSECOMP
 SSMI:
   asset: SSMI
-  display_name: Swiss Index
+  display_name: Swiss 20
   exchange_name: SWX
   feed_license: daily
   instrument_type: stockindex
@@ -1683,7 +1683,7 @@ STI:
   symbol: STI
 SX5E:
   asset: SX5E
-  display_name: Euro 50 Index
+  display_name: Euro 50
   exchange_name: STOXX
   feed_license: delayed
   instrument_type: stockindex
