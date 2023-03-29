@@ -1089,6 +1089,46 @@ JD75:
   spot_spread_size: 0
   submarket: jump_index
   symbol: JD75
+DEX900UP:
+  asset: DEX900UP
+  display_name: DEX 900UP
+  exchange_name: RANDOM
+  feed_license: realtime
+  generation_interval: 1s
+  instrument_type: stockindex
+  is_generated: 1
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  providers:
+  - doubleexponentialjumpdiffusion
+  quoted_currency: ''
+  spot_spread_size: 0
+  submarket: jump_index
+  symbol: DEX900UP
+DEX900DN:
+  asset: DEX900DN
+  display_name: DEX 900DN
+  exchange_name: RANDOM
+  feed_license: realtime
+  generation_interval: 1s
+  instrument_type: stockindex
+  is_generated: 1
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  providers:
+  - doubleexponentialjumpdiffusion
+  quoted_currency: ''
+  spot_spread_size: 0
+  submarket: jump_index
+  symbol: DEX900DN
 KOSPI2:
   asset: KOSPI2
   display_name: Korean Index
