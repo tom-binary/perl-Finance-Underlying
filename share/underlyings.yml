@@ -5035,6 +5035,7 @@ frxGBPUSD:
     rr: call-put
   pip_size: 0.00001
   providers:
+  - oz
   - bloomberg
   quanto_only: 0
   quoted_currency: USD
@@ -8226,6 +8227,9 @@ frxXAGUSD:
     delta_style: spot_delta
     rr: call-put
   pip_size: 0.0001
+  providers:
+  - oz
+  - bloomberg
   quanto_only: 0
   quoted_currency: USD
   submarket: metals
@@ -8326,6 +8330,7 @@ frxXAUUSD:
     rr: call-put
   pip_size: 0.01
   providers:
+  - oz
   - bloomberg
   - idata
   quanto_only: 0
@@ -8463,6 +8468,9 @@ frxXPDUSD:
     delta_style: spot_delta
     rr: call-put
   pip_size: 0.01
+  providers:
+  - oz
+  - bloomberg
   quanto_only: 0
   quoted_currency: USD
   submarket: metals
@@ -8540,6 +8548,9 @@ frxXPTUSD:
     delta_style: spot_delta
     rr: call-put
   pip_size: 0.01
+  providers:
+  - oz
+  - bloomberg
   quanto_only: 0
   quoted_currency: USD
   submarket: metals
