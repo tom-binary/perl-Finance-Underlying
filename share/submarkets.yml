@@ -101,6 +101,16 @@ forex_synthetics:
     market: synthetic_index
     explanation: 'Forex Synthetic Indices follows price direction of forex pairs but with different volatility levels'
     display_order: 9
+two_ways_dsi:
+    name: two_ways_dsi
+    display_name: 'Two Ways DSI'
+    market: synthetic_index
+    explanation: '2 Ways DSI Index (Momentum DSI) allows clients to trade in the same direction of a trend switch.'
+    display_order: 10
+    is_rng: 1
+    subgroup:
+      name: 'synthetics'
+      display_name: 'Synthetics'
 asia_oceania_OTC:
     name: asia_oceania_OTC
     display_name: "Asian indices"
