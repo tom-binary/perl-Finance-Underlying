@@ -20,7 +20,7 @@ subtest 'Finance::Underlying::SubMarket::Registry' => sub {
 
     my %markets = (
         forex           => 2,
-        synthetic_index => 10,
+        synthetic_index => 11,
         indices         => 7,
         commodities     => 2,
     );

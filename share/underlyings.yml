@@ -1149,6 +1149,66 @@ DSI2:
   spot_spread_size: 0
   submarket: two_ways_dsi
   symbol: DSI2
+DSI10:
+  asset: DSI10
+  display_name: DSI10
+  exchange_name: RANDOM
+  feed_license: realtime
+  generation_interval: 1s
+  instrument_type: stockindex
+  is_generated: 1
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  providers:
+  - driftswitch
+  quoted_currency: ''
+  spot_spread_size: 0
+  submarket: three_ways_dsi
+  symbol: DSI10
+DSI20:
+  asset: DSI20
+  display_name: DSI20
+  exchange_name: RANDOM
+  feed_license: realtime
+  generation_interval: 1s
+  instrument_type: stockindex
+  is_generated: 1
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  providers:
+  - driftswitch
+  quoted_currency: ''
+  spot_spread_size: 0
+  submarket: three_ways_dsi
+  symbol: DSI20
+DSI30:
+  asset: DSI30
+  display_name: DSI30
+  exchange_name: RANDOM
+  feed_license: realtime
+  generation_interval: 1s
+  instrument_type: stockindex
+  is_generated: 1
+  market: synthetic_index
+  market_convention:
+    delta_premium_adjusted: 0
+    delta_style: spot_delta
+  market_type: non_financial
+  pip_size: 0.01
+  providers:
+  - driftswitch
+  quoted_currency: ''
+  spot_spread_size: 0
+  submarket: three_ways_dsi
+  symbol: DSI30
 KOSPI2:
   asset: KOSPI2
   display_name: Korean Index

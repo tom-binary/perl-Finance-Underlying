@@ -111,6 +111,16 @@ two_ways_dsi:
     subgroup:
       name: 'synthetics'
       display_name: 'Synthetics'
+three_ways_dsi:
+    name: three_ways_dsi
+    display_name: 'Three Ways DSI'
+    market: synthetic_index
+    explanation: '3 Ways DSI Index (Contrarian DSI) allows clients to trade in the opposite direction of a trend switch.'
+    display_order: 11
+    is_rng: 1
+    subgroup:
+      name: 'synthetics'
+      display_name: 'Synthetics'
 asia_oceania_OTC:
     name: asia_oceania_OTC
     display_name: "Asian indices"
