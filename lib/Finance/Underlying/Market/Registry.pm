@@ -34,7 +34,7 @@ with 'MooseX::Role::Registry';
 
 =head1 METHODS
 
-=head2 config_filename
+=head2 config_file
 
 The default location of the YML file describing known server roles.
 
@@ -61,6 +61,10 @@ sub build_registry_object {
     });
 }
 
+=head2 display_markets
+
+=cut
+
 sub display_markets {
     my $self = shift;
 
@@ -69,6 +73,10 @@ sub display_markets {
         grep { $_->display_order } $self->all;
     return @display_markets;
 }
+
+=head2 all_market_names
+
+=cut
 
 sub all_market_names {
     my $self  = shift;

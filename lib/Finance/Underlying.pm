@@ -31,7 +31,7 @@ use Moo;
 use YAML::XS qw(LoadFile);
 use Scalar::Util qw(looks_like_number);
 use File::ShareDir ();
-use POSIX;
+use POSIX qw(log10);
 use Format::Util::Numbers qw(roundcommon);
 use Finance::Underlying::SubMarket::Registry;
 use Finance::Underlying::Market::Registry;
@@ -91,7 +91,8 @@ Return sorted list of all symbols.
 =cut
 
 sub symbols {
-    return sort keys %underlyings;
+    my @symbols = sort keys %underlyings;
+    return @symbols;
 }
 
 =head2 by_symbol
@@ -112,7 +113,7 @@ sub by_symbol {
 
 =head2 cached_underlyings
 
-To be used in L<Quant::Framework::Underlying>. 
+To be used in L<Quant::Framework::Underlying>.
 
 =cut
 
@@ -398,6 +399,29 @@ sub _build_providers {
     $providers = Finance::Underlying::Market::Registry->get($self->market)->providers;
     return $providers || die "No provider is defined for " . $self->symbol;
 }
+
+
+=head2       feed_failover
+
+=head2       feed_license
+
+=head2       flat_smile
+
+=head2       forward_feed
+
+=head2       forward_inefficient_periods
+
+=head2       generation_interval
+
+=head2       inefficient_periods
+
+=head2       quanto_only
+
+=head2       spot_spread_size
+
+=head2       uses_dst_shifted_seasonality
+
+=cut
 
 has flat_smile => (
     is => 'ro',

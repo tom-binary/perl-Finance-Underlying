@@ -20,7 +20,7 @@ jobs:
           name: Run test
           command: |
             source /etc/profile.d/perl5.sh
-            dzil test
+            dzil test && dzil xtest
 workflows:
   version: 2
   build-workflow:
